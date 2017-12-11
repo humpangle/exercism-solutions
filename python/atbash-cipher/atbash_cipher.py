@@ -36,15 +36,16 @@ def decode1(ciphered_text):
     ))))
 
 
-l = 'abcdefghijklmnopqrstuvwxyz'
+def encode_(w, l='abcdefghijklmnopqrstuvwxyz'):
+    return [l[-l.find(x) - 1]
+            if x in l else x for x in w.lower() if x.isalnum()]
 
 
 def encode(w):
-    y = [l[25 - l.find(x)] if x in l else x for x in w.lower() if x.isalnum()]
+    y = encode_(w)
     return ' '.join(
         ''.join(m) for m in [y[x:x + 5] for x in range(0, len(y), 5)])
 
 
 def decode(w):
-    return ''.join(
-        l[-l.find(x) - 1] if x in l else x for x in w.lower() if x.isalnum())
+    return ''.join(encode_(w))
