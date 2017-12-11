@@ -52,6 +52,6 @@ fin = open('./python/Undergradute-transcripts-and-others.pdf', 'rb')
 pdf_in = PdfFileReader(fin)
 
 pdf_out = PdfFileWriter()
-# x = [pdf_out.addPage(pdf_in.getPage(x)) for x in range(4)]
-pdf_out.addPage(pdf_in.getPage(4))
-pdf_out.write(open('./python/Undergradute-certificate.pdf', 'wb'))
+x = [pdf_out.addPage(pdf_in.getPage(x)) for x in range(5, 9)]
+# pdf_out.addPage(pdf_in.getPage(4))
+pdf_out.write(open('./python/others.pdf', 'wb'))

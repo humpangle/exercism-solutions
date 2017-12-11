@@ -13,6 +13,7 @@ AllergiesTests	../python\allergies\allergies_test.py	/^class AllergiesTests(unit
 AnagramTests	../python\anagram\anagram_test.py	/^class AnagramTests(unittest.TestCase):$/;"	kind:class	line:8
 AtbashCipherTest	../python\atbash-cipher\atbash_cipher_test.py	/^class AtbashCipherTest(unittest.TestCase):$/;"	kind:class	line:8
 BobTests	../python\bob\bob_test.py	/^class BobTests(unittest.TestCase):$/;"	kind:class	line:8
+Counter	../hackerrank\ctci-is-binary-search-tree-English\ctci-is-binary-search-tree-English.py	/^from collections import Counter$/;"	kind:namespace	line:1
 Counter	../python\anagram\anagram.py	/^from collections import Counter$/;"	kind:namespace	line:1
 DAY_NAMES_INDICES	../python\meetup\meetup.py	/^DAY_NAMES_INDICES = dict([(calendar.day_name[x], x) for x in range(7)])$/;"	kind:variable	line:4
 DNATests	../python\rna-transcription\rna_transcription_test.py	/^class DNATests(unittest.TestCase):$/;"	kind:class	line:8
@@ -27,7 +28,10 @@ MeetupDayException	../python\meetup\meetup_test.py	/^    from meetup import Meet
 MeetupTest	../python\meetup\meetup_test.py	/^class MeetupTest(unittest.TestCase):$/;"	kind:class	line:15
 NORTH	../python\robot-simulator\robot_simulator.py	/^NORTH = '+y'$/;"	kind:variable	line:4
 NORTH	../python\robot-simulator\robot_simulator_test.py	/^from robot_simulator import Robot, NORTH, EAST, SOUTH, WEST$/;"	kind:namespace	line:3
+Node	../hackerrank\ctci-is-binary-search-tree-English\ctci-is-binary-search-tree-English.py	/^class Node(object):$/;"	kind:class	line:4
 PangramTests	../python\pangram\pangram_test.py	/^class PangramTests(unittest.TestCase):$/;"	kind:class	line:8
+PdfFileReader	../python\play.py	/^from PyPDF2 import PdfFileReader, PdfFileWriter$/;"	kind:namespace	line:49
+PdfFileWriter	../python\play.py	/^from PyPDF2 import PdfFileReader, PdfFileWriter$/;"	kind:namespace	line:49
 Robot	../python\robot-simulator\robot_simulator.py	/^class Robot(object):$/;"	kind:class	line:9
 Robot	../python\robot-simulator\robot_simulator_test.py	/^from robot_simulator import Robot, NORTH, EAST, SOUTH, WEST$/;"	kind:namespace	line:3
 RobotTests	../python\robot-simulator\robot_simulator_test.py	/^class RobotTests(unittest.TestCase):$/;"	kind:class	line:8
@@ -46,9 +50,11 @@ WEST	../python\robot-simulator\robot_simulator_test.py	/^from robot_simulator im
 WordCountTests	../python\run-length-encoding\run_length_encoding_test.py	/^class WordCountTests(unittest.TestCase):$/;"	kind:class	line:8
 WordCountTests	../python\word-count\word_count_test.py	/^class WordCountTests(unittest.TestCase):$/;"	kind:class	line:6
 YearTest	../python\leap\leap_test.py	/^class YearTest(unittest.TestCase):$/;"	kind:class	line:8
+__init__	../hackerrank\ctci-is-binary-search-tree-English\ctci-is-binary-search-tree-English.py	/^    def __init__(self, data, left=None, right=None):$/;"	kind:member	line:5
 __init__	../python\allergies\allergies.py	/^    def __init__(self, score):$/;"	kind:member	line:11
 __init__	../python\allergies\allergies.py	/^    def __init__(self, score):$/;"	kind:member	line:37
 __init__	../python\robot-simulator\robot_simulator.py	/^    def __init__(self, bearing=NORTH, x=0, y=0):$/;"	kind:member	line:20
+__str__	../hackerrank\ctci-is-binary-search-tree-English\ctci-is-binary-search-tree-English.py	/^    def __str__(self):$/;"	kind:member	line:8
 add_gigasecond	../python\gigasecond\gigasecond.py	/^def add_gigasecond(birth_date):$/;"	kind:function	line:3
 add_gigasecond	../python\gigasecond\gigasecond_test.py	/^from gigasecond import add_gigasecond$/;"	kind:namespace	line:5
 addition	../python\robot-simulator\robot_simulator.py	/^    def addition(sign, a, b):$/;"	kind:member	line:34
@@ -65,18 +71,25 @@ atbash_cipher_test.py	../python\atbash-cipher\atbash_cipher_test.py	1;"	kind:fil
 bob	../python\bob\bob_test.py	/^import bob$/;"	kind:namespace	line:3
 bob.py	../python\bob\bob.py	1;"	kind:file	line:1
 bob_test.py	../python\bob\bob_test.py	1;"	kind:file	line:1
+budgetShopping	../python\play.py	/^def budgetShopping(n, bundleQuantities, bundleCosts):$/;"	kind:function	line:25
 calendar	../python\meetup\meetup.py	/^import calendar$/;"	kind:namespace	line:2
 chain	../python\sum-of-multiples\sum_of_multiples.py	/^from itertools import chain$/;"	kind:namespace	line:1
+checkBST	../hackerrank\ctci-is-binary-search-tree-English\ctci-is-binary-search-tree-English.py	/^def checkBST(root):$/;"	kind:function	line:58
+checkBST0	../hackerrank\ctci-is-binary-search-tree-English\ctci-is-binary-search-tree-English.py	/^def checkBST0(root):$/;"	kind:function	line:48
 count	../python\isogram\isogram.py	/^def count(acc, val):$/;"	kind:function	line:4
 count	../python\word-count\word_count.py	/^    def count(acc, word):$/;"	kind:function	line:8
+ctci-is-binary-search-tree-English.py	../hackerrank\ctci-is-binary-search-tree-English\ctci-is-binary-search-tree-English.py	1;"	kind:file	line:1
+ctci-linked-list-cycle-English.py	../hackerrank\ctci-linked-list-cycle-English\ctci-linked-list-cycle-English.py	1;"	kind:file	line:1
+cycle	../hackerrank\ctci-linked-list-cycle-English\ctci-linked-list-cycle-English.py	/^    def cycle(node, seen=[]):$/;"	kind:function	line:5
 date	../python\meetup\meetup.py	/^from datetime import date$/;"	kind:namespace	line:1
 date	../python\meetup\meetup_test.py	/^from datetime import date$/;"	kind:namespace	line:3
 datetime	../python\gigasecond\gigasecond.py	/^from datetime import datetime, timedelta$/;"	kind:namespace	line:1
 datetime	../python\gigasecond\gigasecond_test.py	/^from datetime import datetime$/;"	kind:namespace	line:3
-decode	../python\atbash-cipher\atbash_cipher.py	/^def decode(ciphered_text):$/;"	kind:function	line:32
+decode	../python\atbash-cipher\atbash_cipher.py	/^def decode(w):$/;"	kind:function	line:50
 decode	../python\atbash-cipher\atbash_cipher_test.py	/^from atbash_cipher import decode, encode$/;"	kind:namespace	line:3
 decode	../python\run-length-encoding\run_length_encoding.py	/^def decode(string):$/;"	kind:function	line:4
 decode	../python\run-length-encoding\run_length_encoding_test.py	/^from run_length_encoding import encode, decode$/;"	kind:namespace	line:3
+decode1	../python\atbash-cipher\atbash_cipher.py	/^def decode1(ciphered_text):$/;"	kind:function	line:32
 decode_	../python\run-length-encoding\run_length_encoding.py	/^    def decode_(acc_prev_letter, next_letter):$/;"	kind:function	line:6
 detect_anagrams	../python\anagram\anagram.py	/^def detect_anagrams(word, candidates):$/;"	kind:function	line:22
 detect_anagrams	../python\anagram\anagram_test.py	/^from anagram import detect_anagrams$/;"	kind:namespace	line:3
@@ -86,18 +99,24 @@ difference	../python\difference-of-squares\difference_of_squares_test.py	/^from 
 difference_of_squares.py	../python\difference-of-squares\difference_of_squares.py	1;"	kind:file	line:1
 difference_of_squares_test.py	../python\difference-of-squares\difference_of_squares_test.py	1;"	kind:file	line:1
 distance	../python\hamming\hamming.py	/^def distance(strand_a, strand_b):$/;"	kind:function	line:1
-encode	../python\atbash-cipher\atbash_cipher.py	/^def encode(plain_text):$/;"	kind:function	line:21
+encode	../python\atbash-cipher\atbash_cipher.py	/^def encode(w):$/;"	kind:function	line:44
 encode	../python\atbash-cipher\atbash_cipher_test.py	/^from atbash_cipher import decode, encode$/;"	kind:namespace	line:3
 encode	../python\run-length-encoding\run_length_encoding.py	/^def encode(string):$/;"	kind:function	line:24
 encode	../python\run-length-encoding\run_length_encoding_test.py	/^from run_length_encoding import encode, decode$/;"	kind:namespace	line:3
 encode0	../python\atbash-cipher\atbash_cipher.py	/^def encode0(plain_text):$/;"	kind:function	line:4
+encode1	../python\atbash-cipher\atbash_cipher.py	/^def encode1(plain_text):$/;"	kind:function	line:21
+encode_	../python\atbash-cipher\atbash_cipher.py	/^def encode_(w, l='abcdefghijklmnopqrstuvwxyz'):$/;"	kind:function	line:39
 encode_	../python\run-length-encoding\run_length_encoding.py	/^    def encode_(acc_prev_letter_count, next_letter):$/;"	kind:function	line:26
+fin	../python\play.py	/^fin = open('.\/python\/Undergradute-transcripts-and-others.pdf', 'rb')$/;"	kind:variable	line:51
 floor	../python\allergies\allergies.py	/^from math import floor, log$/;"	kind:namespace	line:1
+getMovieTitles	../python\play.py	/^def getMovieTitles(substr):$/;"	kind:function	line:9
 gigasecond.py	../python\gigasecond\gigasecond.py	1;"	kind:file	line:1
 gigasecond_test.py	../python\gigasecond\gigasecond_test.py	1;"	kind:file	line:1
 hamming	../python\hamming\hamming_test.py	/^import hamming$/;"	kind:namespace	line:3
 hamming.py	../python\hamming\hamming.py	1;"	kind:file	line:1
 hamming_test.py	../python\hamming\hamming_test.py	1;"	kind:file	line:1
+has_cycle	../hackerrank\ctci-linked-list-cycle-English\ctci-linked-list-cycle-English.py	/^def has_cycle(head):$/;"	kind:function	line:18
+has_cycle0	../hackerrank\ctci-linked-list-cycle-English\ctci-linked-list-cycle-English.py	/^def has_cycle0(head):$/;"	kind:function	line:1
 hello	../python\hello-world\hello_world.py	/^def hello(name=''):$/;"	kind:function	line:1
 hello_world	../python\hello-world\hello_world_test.py	/^import hello_world$/;"	kind:namespace	line:3
 hello_world.py	../python\hello-world\hello_world.py	1;"	kind:file	line:1
@@ -105,6 +124,7 @@ hello_world_test.py	../python\hello-world\hello_world_test.py	1;"	kind:file	line
 hey	../python\bob\bob.py	/^def hey(phrase):$/;"	kind:function	line:1
 is_allergic_to	../python\allergies\allergies.py	/^    def is_allergic_to(self, item):$/;"	kind:member	line:14
 is_allergic_to	../python\allergies\allergies.py	/^    def is_allergic_to(self, item):$/;"	kind:member	line:40
+is_binary_search	../hackerrank\ctci-is-binary-search-tree-English\ctci-is-binary-search-tree-English.py	/^    def is_binary_search(self):$/;"	kind:member	line:18
 is_isogram	../python\isogram\isogram.py	/^def is_isogram(string):$/;"	kind:function	line:8
 is_isogram	../python\isogram\isogram_test.py	/^from isogram import is_isogram$/;"	kind:namespace	line:3
 is_leap_year	../python\leap\leap.py	/^def is_leap_year(year):$/;"	kind:function	line:1
@@ -113,11 +133,14 @@ is_pangram	../python\pangram\pangram.py	/^def is_pangram(string):$/;"	kind:funct
 is_pangram	../python\pangram\pangram_test.py	/^from pangram import is_pangram$/;"	kind:namespace	line:3
 isogram.py	../python\isogram\isogram.py	1;"	kind:file	line:1
 isogram_test.py	../python\isogram\isogram_test.py	1;"	kind:file	line:1
+jobOffers	../python\play.py	/^def jobOffers(scores, lowerLimits, upperLimits):$/;"	kind:function	line:1
+json	../python\play.py	/^import json$/;"	kind:namespace	line:6
 leap.py	../python\leap\leap.py	1;"	kind:file	line:1
 leap_test.py	../python\leap\leap_test.py	1;"	kind:file	line:1
 log	../python\allergies\allergies.py	/^from math import floor, log$/;"	kind:namespace	line:1
 lst	../python\allergies\allergies.py	/^    def lst(self):$/;"	kind:member	line:18
 lst	../python\allergies\allergies.py	/^    def lst(self):$/;"	kind:member	line:44
+make_node	../hackerrank\ctci-is-binary-search-tree-English\ctci-is-binary-search-tree-English.py	/^    def make_node(cls, data):$/;"	kind:member	line:28
 meetup.py	../python\meetup\meetup.py	1;"	kind:file	line:1
 meetup_day	../python\meetup\meetup.py	/^def meetup_day(year, month, day_of_the_week, which):$/;"	kind:function	line:6
 meetup_day	../python\meetup\meetup_test.py	/^from meetup import meetup_day$/;"	kind:namespace	line:5
@@ -125,16 +148,20 @@ meetup_test.py	../python\meetup\meetup_test.py	1;"	kind:file	line:1
 p	../python\word-count\word_count.py	/^p = re.compile(r"[a-z'\\d]+")$/;"	kind:variable	line:4
 pangram.py	../python\pangram\pangram.py	1;"	kind:file	line:1
 pangram_test.py	../python\pangram\pangram_test.py	1;"	kind:file	line:1
+pdf_in	../python\play.py	/^pdf_in = PdfFileReader(fin)$/;"	kind:variable	line:52
+pdf_out	../python\play.py	/^pdf_out = PdfFileWriter()$/;"	kind:variable	line:54
 play.py	../python\play.py	1;"	kind:file	line:1
 re	../python\run-length-encoding\run_length_encoding.py	/^import re$/;"	kind:namespace	line:2
 re	../python\word-count\word_count.py	/^import re$/;"	kind:namespace	line:1
 reduce	../python\isogram\isogram.py	/^from functools import reduce$/;"	kind:namespace	line:1
 reduce	../python\run-length-encoding\run_length_encoding.py	/^from functools import reduce$/;"	kind:namespace	line:1
 reduce	../python\word-count\word_count.py	/^from functools import reduce$/;"	kind:namespace	line:2
+request	../python\play.py	/^from urllib import request$/;"	kind:namespace	line:5
 rna_transcription.py	../python\rna-transcription\rna_transcription.py	1;"	kind:file	line:1
 rna_transcription_test.py	../python\rna-transcription\rna_transcription_test.py	1;"	kind:file	line:1
 robot_simulator.py	../python\robot-simulator\robot_simulator.py	1;"	kind:file	line:1
 robot_simulator_test.py	../python\robot-simulator\robot_simulator_test.py	1;"	kind:file	line:1
+root	../hackerrank\ctci-is-binary-search-tree-English\ctci-is-binary-search-tree-English.py	/^root = Node.make_node([int(x.strip())$/;"	kind:variable	line:83
 rotate	../python\rotational-cipher\rotational_cipher.py	/^def rotate(text, key):$/;"	kind:function	line:3
 rotational_cipher	../python\rotational-cipher\rotational_cipher_test.py	/^import rotational_cipher$/;"	kind:namespace	line:3
 rotational_cipher.py	../python\rotational-cipher\rotational_cipher.py	1;"	kind:file	line:1
@@ -462,6 +489,7 @@ timedelta	../python\gigasecond\gigasecond.py	/^from datetime import datetime, ti
 to_rna	../python\rna-transcription\rna_transcription.py	/^def to_rna(dna: str) -> str:$/;"	kind:function	line:10
 to_rna	../python\rna-transcription\rna_transcription_test.py	/^from rna_transcription import to_rna$/;"	kind:namespace	line:3
 to_rnax	../python\rna-transcription\rna_transcription.py	/^def to_rnax(dna_strand):$/;"	kind:function	line:1
+transverse	../hackerrank\ctci-is-binary-search-tree-English\ctci-is-binary-search-tree-English.py	/^def transverse(node: Node=None):$/;"	kind:function	line:42
 turn_left	../python\robot-simulator\robot_simulator.py	/^    def turn_left(self):$/;"	kind:member	line:30
 turn_left_mappings	../python\robot-simulator\robot_simulator.py	/^    turn_left_mappings = dict(zip($/;"	kind:variable	line:15
 turn_right	../python\robot-simulator\robot_simulator.py	/^    def turn_right(self):$/;"	kind:member	line:27
@@ -486,8 +514,10 @@ unittest	../python\series\series_test.py	/^import unittest$/;"	kind:namespace	li
 unittest	../python\sieve\sieve_test.py	/^import unittest$/;"	kind:namespace	line:1
 unittest	../python\sum-of-multiples\sum_of_multiples_test.py	/^import unittest$/;"	kind:namespace	line:10
 unittest	../python\word-count\word_count_test.py	/^import unittest$/;"	kind:namespace	line:1
+walk	../hackerrank\ctci-is-binary-search-tree-English\ctci-is-binary-search-tree-English.py	/^    def walk(self):$/;"	kind:member	line:13
 word_count	../python\word-count\word_count.py	/^def word_count(phrase):$/;"	kind:function	line:6
 word_count	../python\word-count\word_count_test.py	/^from word_count import word_count$/;"	kind:namespace	line:3
 word_count.py	../python\word-count\word_count.py	1;"	kind:file	line:1
 word_count_test.py	../python\word-count\word_count_test.py	1;"	kind:file	line:1
+x	../python\play.py	/^x = [pdf_out.addPage(pdf_in.getPage(x)) for x in range(5, 9)]$/;"	kind:variable	line:55
 zip_longest	../python\atbash-cipher\atbash_cipher.py	/^from itertools import zip_longest$/;"	kind:namespace	line:1
