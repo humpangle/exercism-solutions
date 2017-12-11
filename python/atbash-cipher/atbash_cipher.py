@@ -18,19 +18,33 @@ def encode0(plain_text):
     return result
 
 
-def encode(plain_text):
+def encode1(plain_text):
     trans = plain_text.lower().translate(str.maketrans(dict(zip_longest(
         'abcdefghijklmnopqrstuvwxyz0123456789 .,',
         'zyxwvutsrqponmlkjihgfedcba0123456789'
     ))))
     return ' '.join(
         ''.join(trans[x * 5:(x + 1) * 5])
-        for x in range(int(len(trans) / 5) + 1)
+        for x in range((len(trans) // 5) + 1)
     ).strip()
 
 
-def decode(ciphered_text):
+def decode1(ciphered_text):
     return ciphered_text.translate(str.maketrans(dict(zip_longest(
         'zyxwvutsrqponmlkjihgfedcba0123456789 ',
         'abcdefghijklmnopqrstuvwxyz0123456789'
     ))))
+
+
+l = 'abcdefghijklmnopqrstuvwxyz'
+
+
+def encode(w):
+    y = [l[25 - l.find(x)] if x in l else x for x in w.lower() if x.isalnum()]
+    return ' '.join(
+        ''.join(m) for m in [y[x:x + 5] for x in range(0, len(y), 5)])
+
+
+def decode(w):
+    return ''.join(
+        l[-l.find(x) - 1] if x in l else x for x in w.lower() if x.isalnum())
