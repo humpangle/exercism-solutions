@@ -1,4 +1,4 @@
-.vscode/*.json
+.vscode/settings.json
 python/.python-win.bat
 *.pyc
 __pycache__
