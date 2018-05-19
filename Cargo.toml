@@ -1,5 +1,6 @@
 [workspace]
 members = [
   "rust/hello-world",
-  "rust/gigasecond"
+  "rust/gigasecond",
+  "rust/leap"
 ]
