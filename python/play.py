@@ -29,7 +29,7 @@ def budgetShopping(n, bundleQuantities, bundleCosts):
     len_all = len(all_) - 1
     index = 0
     while index <= len_all:
-        max_qty = n % cost
+        max_qty = n % cost #wrong
         if max_qty:
             total += (max_qty * qty)
             rest = n - max_qty * cost

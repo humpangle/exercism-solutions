@@ -1,5 +1,4 @@
-.vscode/settings.json
-python/.python-win.bat
 *.pyc
 __pycache__
 node_modules
+/**/target

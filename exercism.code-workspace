@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"name": "Hackerrank",
+			"path": "hackerrank"
+		},
+		{
+			"name": "Javascript",
+			"path": "javascript"
+		},
+		{
+			"name": "Python",
+			"path": "python"
+		},
+		{
+			"name": "Rust",
+			"path": "rust"
+		},
+		{
+			"name": "Root",
+			"path": "."
+		}
+	],
+	"settings": {}
+}

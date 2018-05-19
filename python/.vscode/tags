@@ -1,0 +1,523 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AILMENTS	../python\allergies\allergies.py	/^                tomatoes chocolate pollen cats'.split()$/;"	kind:variable	line:4
+ALLERGIES_SCORES	../python\allergies\allergies.py	/^ALLERGIES_SCORES = dict(zip(AILMENTS, SCORES))$/;"	kind:variable	line:6
+Allergies	../python\allergies\allergies.py	/^class Allergies(object):$/;"	kind:class	line:36
+Allergies	../python\allergies\allergies_test.py	/^from allergies import Allergies$/;"	kind:namespace	line:3
+Allergies0	../python\allergies\allergies.py	/^class Allergies0(object):$/;"	kind:class	line:10
+AllergiesTests	../python\allergies\allergies_test.py	/^class AllergiesTests(unittest.TestCase):$/;"	kind:class	line:12
+AnagramTests	../python\anagram\anagram_test.py	/^class AnagramTests(unittest.TestCase):$/;"	kind:class	line:8
+AtbashCipherTest	../python\atbash-cipher\atbash_cipher_test.py	/^class AtbashCipherTest(unittest.TestCase):$/;"	kind:class	line:8
+BobTests	../python\bob\bob_test.py	/^class BobTests(unittest.TestCase):$/;"	kind:class	line:8
+Counter	../hackerrank\ctci-is-binary-search-tree-English\ctci-is-binary-search-tree-English.py	/^from collections import Counter$/;"	kind:namespace	line:1
+Counter	../python\anagram\anagram.py	/^from collections import Counter$/;"	kind:namespace	line:1
+DAY_NAMES_INDICES	../python\meetup\meetup.py	/^DAY_NAMES_INDICES = dict([(calendar.day_name[x], x) for x in range(7)])$/;"	kind:variable	line:4
+DNATests	../python\rna-transcription\rna_transcription_test.py	/^class DNATests(unittest.TestCase):$/;"	kind:class	line:8
+DifferenceOfSquaresTest	../python\difference-of-squares\difference_of_squares_test.py	/^class DifferenceOfSquaresTest(unittest.TestCase):$/;"	kind:class	line:8
+EAST	../python\robot-simulator\robot_simulator.py	/^EAST = '+x'$/;"	kind:variable	line:3
+EAST	../python\robot-simulator\robot_simulator_test.py	/^from robot_simulator import Robot, NORTH, EAST, SOUTH, WEST$/;"	kind:namespace	line:3
+GigasecondTest	../python\gigasecond\gigasecond_test.py	/^class GigasecondTest(unittest.TestCase):$/;"	kind:class	line:10
+HammingTest	../python\hamming\hamming_test.py	/^class HammingTest(unittest.TestCase):$/;"	kind:class	line:8
+HelloWorldTests	../python\hello-world\hello_world_test.py	/^class HelloWorldTests(unittest.TestCase):$/;"	kind:class	line:8
+MeetupDayException	../python\meetup\meetup_test.py	/^    MeetupDayException = Exception$/;"	kind:variable	line:10
+MeetupDayException	../python\meetup\meetup_test.py	/^    from meetup import MeetupDayException$/;"	kind:namespace	line:8
+MeetupTest	../python\meetup\meetup_test.py	/^class MeetupTest(unittest.TestCase):$/;"	kind:class	line:15
+NORTH	../python\robot-simulator\robot_simulator.py	/^NORTH = '+y'$/;"	kind:variable	line:4
+NORTH	../python\robot-simulator\robot_simulator_test.py	/^from robot_simulator import Robot, NORTH, EAST, SOUTH, WEST$/;"	kind:namespace	line:3
+Node	../hackerrank\ctci-is-binary-search-tree-English\ctci-is-binary-search-tree-English.py	/^class Node(object):$/;"	kind:class	line:4
+PangramTests	../python\pangram\pangram_test.py	/^class PangramTests(unittest.TestCase):$/;"	kind:class	line:8
+PdfFileReader	../python\play.py	/^from PyPDF2 import PdfFileReader, PdfFileWriter$/;"	kind:namespace	line:49
+PdfFileWriter	../python\play.py	/^from PyPDF2 import PdfFileReader, PdfFileWriter$/;"	kind:namespace	line:49
+Robot	../python\robot-simulator\robot_simulator.py	/^class Robot(object):$/;"	kind:class	line:9
+Robot	../python\robot-simulator\robot_simulator_test.py	/^from robot_simulator import Robot, NORTH, EAST, SOUTH, WEST$/;"	kind:namespace	line:3
+RobotTests	../python\robot-simulator\robot_simulator_test.py	/^class RobotTests(unittest.TestCase):$/;"	kind:class	line:8
+RotationalCipher	../python\rotational-cipher\rotational_cipher_test.py	/^class RotationalCipher(unittest.TestCase):$/;"	kind:class	line:8
+SCORES	../python\allergies\allergies.py	/^SCORES = [2 ** x for x in range(len(AILMENTS))]$/;"	kind:variable	line:5
+SCORES_ALLERGIES	../python\allergies\allergies.py	/^SCORES_ALLERGIES = dict(zip(SCORES, AILMENTS))$/;"	kind:variable	line:7
+SOUTH	../python\robot-simulator\robot_simulator.py	/^SOUTH = '-y'$/;"	kind:variable	line:6
+SOUTH	../python\robot-simulator\robot_simulator_test.py	/^from robot_simulator import Robot, NORTH, EAST, SOUTH, WEST$/;"	kind:namespace	line:3
+SeriesTest	../python\series\series_test.py	/^class SeriesTest(unittest.TestCase):$/;"	kind:class	line:12
+SieveTest	../python\sieve\sieve_test.py	/^class SieveTest(unittest.TestCase):$/;"	kind:class	line:8
+SumOfMultiplesTest	../python\sum-of-multiples\sum_of_multiples_test.py	/^class SumOfMultiplesTest(unittest.TestCase):$/;"	kind:class	line:17
+TRANSLATION_TABLE	../python\rna-transcription\rna_transcription.py	/^TRANSLATION_TABLE = str.maketrans("GCTA", "CGAU")$/;"	kind:variable	line:8
+TestIsogram	../python\isogram\isogram_test.py	/^class TestIsogram(unittest.TestCase):$/;"	kind:class	line:8
+WEST	../python\robot-simulator\robot_simulator.py	/^WEST = '-x'$/;"	kind:variable	line:5
+WEST	../python\robot-simulator\robot_simulator_test.py	/^from robot_simulator import Robot, NORTH, EAST, SOUTH, WEST$/;"	kind:namespace	line:3
+WordCountTests	../python\run-length-encoding\run_length_encoding_test.py	/^class WordCountTests(unittest.TestCase):$/;"	kind:class	line:8
+WordCountTests	../python\word-count\word_count_test.py	/^class WordCountTests(unittest.TestCase):$/;"	kind:class	line:6
+YearTest	../python\leap\leap_test.py	/^class YearTest(unittest.TestCase):$/;"	kind:class	line:8
+__init__	../hackerrank\ctci-is-binary-search-tree-English\ctci-is-binary-search-tree-English.py	/^    def __init__(self, data, left=None, right=None):$/;"	kind:member	line:5
+__init__	../python\allergies\allergies.py	/^    def __init__(self, score):$/;"	kind:member	line:11
+__init__	../python\allergies\allergies.py	/^    def __init__(self, score):$/;"	kind:member	line:37
+__init__	../python\robot-simulator\robot_simulator.py	/^    def __init__(self, bearing=NORTH, x=0, y=0):$/;"	kind:member	line:20
+__str__	../hackerrank\ctci-is-binary-search-tree-English\ctci-is-binary-search-tree-English.py	/^    def __str__(self):$/;"	kind:member	line:8
+add_gigasecond	../python\gigasecond\gigasecond.py	/^def add_gigasecond(birth_date):$/;"	kind:function	line:3
+add_gigasecond	../python\gigasecond\gigasecond_test.py	/^from gigasecond import add_gigasecond$/;"	kind:namespace	line:5
+addition	../python\robot-simulator\robot_simulator.py	/^    def addition(sign, a, b):$/;"	kind:member	line:34
+advance	../python\robot-simulator\robot_simulator.py	/^    def advance(self):$/;"	kind:member	line:37
+allergies.py	../python\allergies\allergies.py	1;"	kind:file	line:1
+allergies_test.py	../python\allergies\allergies_test.py	1;"	kind:file	line:1
+anagram.py	../python\anagram\anagram.py	1;"	kind:file	line:1
+anagram_test.py	../python\anagram\anagram_test.py	1;"	kind:file	line:1
+ascii_lowercase	../python\pangram\pangram.py	/^from string import ascii_lowercase$/;"	kind:namespace	line:1
+ascii_lowercase	../python\rotational-cipher\rotational_cipher.py	/^from string import ascii_uppercase, ascii_lowercase$/;"	kind:namespace	line:1
+ascii_uppercase	../python\rotational-cipher\rotational_cipher.py	/^from string import ascii_uppercase, ascii_lowercase$/;"	kind:namespace	line:1
+atbash_cipher.py	../python\atbash-cipher\atbash_cipher.py	1;"	kind:file	line:1
+atbash_cipher_test.py	../python\atbash-cipher\atbash_cipher_test.py	1;"	kind:file	line:1
+bob	../python\bob\bob_test.py	/^import bob$/;"	kind:namespace	line:3
+bob.py	../python\bob\bob.py	1;"	kind:file	line:1
+bob_test.py	../python\bob\bob_test.py	1;"	kind:file	line:1
+budgetShopping	../python\play.py	/^def budgetShopping(n, bundleQuantities, bundleCosts):$/;"	kind:function	line:25
+calendar	../python\meetup\meetup.py	/^import calendar$/;"	kind:namespace	line:2
+chain	../python\sum-of-multiples\sum_of_multiples.py	/^from itertools import chain$/;"	kind:namespace	line:1
+checkBST	../hackerrank\ctci-is-binary-search-tree-English\ctci-is-binary-search-tree-English.py	/^def checkBST(root):$/;"	kind:function	line:58
+checkBST0	../hackerrank\ctci-is-binary-search-tree-English\ctci-is-binary-search-tree-English.py	/^def checkBST0(root):$/;"	kind:function	line:48
+count	../python\isogram\isogram.py	/^def count(acc, val):$/;"	kind:function	line:4
+count	../python\word-count\word_count.py	/^    def count(acc, word):$/;"	kind:function	line:8
+ctci-is-binary-search-tree-English.py	../hackerrank\ctci-is-binary-search-tree-English\ctci-is-binary-search-tree-English.py	1;"	kind:file	line:1
+ctci-linked-list-cycle-English.py	../hackerrank\ctci-linked-list-cycle-English\ctci-linked-list-cycle-English.py	1;"	kind:file	line:1
+cycle	../hackerrank\ctci-linked-list-cycle-English\ctci-linked-list-cycle-English.py	/^    def cycle(node, seen=[]):$/;"	kind:function	line:5
+date	../python\meetup\meetup.py	/^from datetime import date$/;"	kind:namespace	line:1
+date	../python\meetup\meetup_test.py	/^from datetime import date$/;"	kind:namespace	line:3
+datetime	../python\gigasecond\gigasecond.py	/^from datetime import datetime, timedelta$/;"	kind:namespace	line:1
+datetime	../python\gigasecond\gigasecond_test.py	/^from datetime import datetime$/;"	kind:namespace	line:3
+decode	../python\atbash-cipher\atbash_cipher.py	/^def decode(w):$/;"	kind:function	line:50
+decode	../python\atbash-cipher\atbash_cipher_test.py	/^from atbash_cipher import decode, encode$/;"	kind:namespace	line:3
+decode	../python\run-length-encoding\run_length_encoding.py	/^def decode(string):$/;"	kind:function	line:4
+decode	../python\run-length-encoding\run_length_encoding_test.py	/^from run_length_encoding import encode, decode$/;"	kind:namespace	line:3
+decode1	../python\atbash-cipher\atbash_cipher.py	/^def decode1(ciphered_text):$/;"	kind:function	line:32
+decode_	../python\run-length-encoding\run_length_encoding.py	/^    def decode_(acc_prev_letter, next_letter):$/;"	kind:function	line:6
+detect_anagrams	../python\anagram\anagram.py	/^def detect_anagrams(word, candidates):$/;"	kind:function	line:22
+detect_anagrams	../python\anagram\anagram_test.py	/^from anagram import detect_anagrams$/;"	kind:namespace	line:3
+detect_anagrams0	../python\anagram\anagram.py	/^def detect_anagrams0(word, candidates):$/;"	kind:function	line:4
+difference	../python\difference-of-squares\difference_of_squares.py	/^def difference(num):$/;"	kind:function	line:9
+difference	../python\difference-of-squares\difference_of_squares_test.py	/^from difference_of_squares import difference, square_of_sum, sum_of_squares$/;"	kind:namespace	line:3
+difference_of_squares.py	../python\difference-of-squares\difference_of_squares.py	1;"	kind:file	line:1
+difference_of_squares_test.py	../python\difference-of-squares\difference_of_squares_test.py	1;"	kind:file	line:1
+distance	../python\hamming\hamming.py	/^def distance(strand_a, strand_b):$/;"	kind:function	line:1
+encode	../python\atbash-cipher\atbash_cipher.py	/^def encode(w):$/;"	kind:function	line:44
+encode	../python\atbash-cipher\atbash_cipher_test.py	/^from atbash_cipher import decode, encode$/;"	kind:namespace	line:3
+encode	../python\run-length-encoding\run_length_encoding.py	/^def encode(string):$/;"	kind:function	line:24
+encode	../python\run-length-encoding\run_length_encoding_test.py	/^from run_length_encoding import encode, decode$/;"	kind:namespace	line:3
+encode0	../python\atbash-cipher\atbash_cipher.py	/^def encode0(plain_text):$/;"	kind:function	line:4
+encode1	../python\atbash-cipher\atbash_cipher.py	/^def encode1(plain_text):$/;"	kind:function	line:21
+encode_	../python\atbash-cipher\atbash_cipher.py	/^def encode_(w, l='abcdefghijklmnopqrstuvwxyz'):$/;"	kind:function	line:39
+encode_	../python\run-length-encoding\run_length_encoding.py	/^    def encode_(acc_prev_letter_count, next_letter):$/;"	kind:function	line:26
+fin	../python\play.py	/^fin = open('.\/python\/Undergradute-transcripts-and-others.pdf', 'rb')$/;"	kind:variable	line:51
+floor	../python\allergies\allergies.py	/^from math import floor, log$/;"	kind:namespace	line:1
+getMovieTitles	../python\play.py	/^def getMovieTitles(substr):$/;"	kind:function	line:9
+gigasecond.py	../python\gigasecond\gigasecond.py	1;"	kind:file	line:1
+gigasecond_test.py	../python\gigasecond\gigasecond_test.py	1;"	kind:file	line:1
+hamming	../python\hamming\hamming_test.py	/^import hamming$/;"	kind:namespace	line:3
+hamming.py	../python\hamming\hamming.py	1;"	kind:file	line:1
+hamming_test.py	../python\hamming\hamming_test.py	1;"	kind:file	line:1
+has_cycle	../hackerrank\ctci-linked-list-cycle-English\ctci-linked-list-cycle-English.py	/^def has_cycle(head):$/;"	kind:function	line:18
+has_cycle0	../hackerrank\ctci-linked-list-cycle-English\ctci-linked-list-cycle-English.py	/^def has_cycle0(head):$/;"	kind:function	line:1
+hello	../python\hello-world\hello_world.py	/^def hello(name=''):$/;"	kind:function	line:1
+hello_world	../python\hello-world\hello_world_test.py	/^import hello_world$/;"	kind:namespace	line:3
+hello_world.py	../python\hello-world\hello_world.py	1;"	kind:file	line:1
+hello_world_test.py	../python\hello-world\hello_world_test.py	1;"	kind:file	line:1
+hey	../python\bob\bob.py	/^def hey(phrase):$/;"	kind:function	line:1
+is_allergic_to	../python\allergies\allergies.py	/^    def is_allergic_to(self, item):$/;"	kind:member	line:14
+is_allergic_to	../python\allergies\allergies.py	/^    def is_allergic_to(self, item):$/;"	kind:member	line:40
+is_binary_search	../hackerrank\ctci-is-binary-search-tree-English\ctci-is-binary-search-tree-English.py	/^    def is_binary_search(self):$/;"	kind:member	line:18
+is_isogram	../python\isogram\isogram.py	/^def is_isogram(string):$/;"	kind:function	line:8
+is_isogram	../python\isogram\isogram_test.py	/^from isogram import is_isogram$/;"	kind:namespace	line:3
+is_leap_year	../python\leap\leap.py	/^def is_leap_year(year):$/;"	kind:function	line:1
+is_leap_year	../python\leap\leap_test.py	/^from leap import is_leap_year$/;"	kind:namespace	line:3
+is_pangram	../python\pangram\pangram.py	/^def is_pangram(string):$/;"	kind:function	line:3
+is_pangram	../python\pangram\pangram_test.py	/^from pangram import is_pangram$/;"	kind:namespace	line:3
+isogram.py	../python\isogram\isogram.py	1;"	kind:file	line:1
+isogram_test.py	../python\isogram\isogram_test.py	1;"	kind:file	line:1
+jobOffers	../python\play.py	/^def jobOffers(scores, lowerLimits, upperLimits):$/;"	kind:function	line:1
+json	../python\play.py	/^import json$/;"	kind:namespace	line:6
+leap.py	../python\leap\leap.py	1;"	kind:file	line:1
+leap_test.py	../python\leap\leap_test.py	1;"	kind:file	line:1
+log	../python\allergies\allergies.py	/^from math import floor, log$/;"	kind:namespace	line:1
+lst	../python\allergies\allergies.py	/^    def lst(self):$/;"	kind:member	line:18
+lst	../python\allergies\allergies.py	/^    def lst(self):$/;"	kind:member	line:44
+make_node	../hackerrank\ctci-is-binary-search-tree-English\ctci-is-binary-search-tree-English.py	/^    def make_node(cls, data):$/;"	kind:member	line:28
+meetup.py	../python\meetup\meetup.py	1;"	kind:file	line:1
+meetup_day	../python\meetup\meetup.py	/^def meetup_day(year, month, day_of_the_week, which):$/;"	kind:function	line:6
+meetup_day	../python\meetup\meetup_test.py	/^from meetup import meetup_day$/;"	kind:namespace	line:5
+meetup_test.py	../python\meetup\meetup_test.py	1;"	kind:file	line:1
+p	../python\word-count\word_count.py	/^p = re.compile(r"[a-z'\\d]+")$/;"	kind:variable	line:4
+pangram.py	../python\pangram\pangram.py	1;"	kind:file	line:1
+pangram_test.py	../python\pangram\pangram_test.py	1;"	kind:file	line:1
+pdf_in	../python\play.py	/^pdf_in = PdfFileReader(fin)$/;"	kind:variable	line:52
+pdf_out	../python\play.py	/^pdf_out = PdfFileWriter()$/;"	kind:variable	line:54
+play.py	../python\play.py	1;"	kind:file	line:1
+re	../python\run-length-encoding\run_length_encoding.py	/^import re$/;"	kind:namespace	line:2
+re	../python\word-count\word_count.py	/^import re$/;"	kind:namespace	line:1
+reduce	../python\isogram\isogram.py	/^from functools import reduce$/;"	kind:namespace	line:1
+reduce	../python\run-length-encoding\run_length_encoding.py	/^from functools import reduce$/;"	kind:namespace	line:1
+reduce	../python\word-count\word_count.py	/^from functools import reduce$/;"	kind:namespace	line:2
+request	../python\play.py	/^from urllib import request$/;"	kind:namespace	line:5
+rna_transcription.py	../python\rna-transcription\rna_transcription.py	1;"	kind:file	line:1
+rna_transcription_test.py	../python\rna-transcription\rna_transcription_test.py	1;"	kind:file	line:1
+robot_simulator.py	../python\robot-simulator\robot_simulator.py	1;"	kind:file	line:1
+robot_simulator_test.py	../python\robot-simulator\robot_simulator_test.py	1;"	kind:file	line:1
+root	../hackerrank\ctci-is-binary-search-tree-English\ctci-is-binary-search-tree-English.py	/^root = Node.make_node([int(x.strip())$/;"	kind:variable	line:83
+rotate	../python\rotational-cipher\rotational_cipher.py	/^def rotate(text, key):$/;"	kind:function	line:3
+rotational_cipher	../python\rotational-cipher\rotational_cipher_test.py	/^import rotational_cipher$/;"	kind:namespace	line:3
+rotational_cipher.py	../python\rotational-cipher\rotational_cipher.py	1;"	kind:file	line:1
+rotational_cipher_test.py	../python\rotational-cipher\rotational_cipher_test.py	1;"	kind:file	line:1
+run_length_encoding.py	../python\run-length-encoding\run_length_encoding.py	1;"	kind:file	line:1
+run_length_encoding_test.py	../python\run-length-encoding\run_length_encoding_test.py	1;"	kind:file	line:1
+series.py	../python\series\series.py	1;"	kind:file	line:1
+series_test.py	../python\series\series_test.py	1;"	kind:file	line:1
+sieve	../python\sieve\sieve.py	/^def sieve(limit):$/;"	kind:function	line:1
+sieve	../python\sieve\sieve_test.py	/^from sieve import sieve$/;"	kind:namespace	line:3
+sieve.py	../python\sieve\sieve.py	1;"	kind:file	line:1
+sieve_test.py	../python\sieve\sieve_test.py	1;"	kind:file	line:1
+simulate	../python\robot-simulator\robot_simulator.py	/^    def simulate(self, motions: str):$/;"	kind:member	line:46
+slices	../python\series\series.py	/^def slices(series, length):$/;"	kind:function	line:11
+slices	../python\series\series_test.py	/^from series import slices$/;"	kind:namespace	line:9
+slices0	../python\series\series.py	/^def slices0(series, length):$/;"	kind:function	line:1
+square_of_sum	../python\difference-of-squares\difference_of_squares.py	/^def square_of_sum(num):$/;"	kind:function	line:1
+square_of_sum	../python\difference-of-squares\difference_of_squares_test.py	/^from difference_of_squares import difference, square_of_sum, sum_of_squares$/;"	kind:namespace	line:3
+sum_of_multiples	../python\sum-of-multiples\sum_of_multiples.py	/^def sum_of_multiples(limit, multiples):$/;"	kind:function	line:4
+sum_of_multiples	../python\sum-of-multiples\sum_of_multiples_test.py	/^from sum_of_multiples import sum_of_multiples$/;"	kind:namespace	line:12
+sum_of_multiples.py	../python\sum-of-multiples\sum_of_multiples.py	1;"	kind:file	line:1
+sum_of_multiples_test.py	../python\sum-of-multiples\sum_of_multiples_test.py	1;"	kind:file	line:1
+sum_of_squares	../python\difference-of-squares\difference_of_squares.py	/^def sum_of_squares(num):$/;"	kind:function	line:5
+sum_of_squares	../python\difference-of-squares\difference_of_squares_test.py	/^from difference_of_squares import difference, square_of_sum, sum_of_squares$/;"	kind:namespace	line:3
+test_advance_negative_south	../python\robot-simulator\robot_simulator_test.py	/^    def test_advance_negative_south(self):$/;"	kind:member	line:37
+test_advance_negative_west	../python\robot-simulator\robot_simulator_test.py	/^    def test_advance_negative_west(self):$/;"	kind:member	line:49
+test_advance_positive_east	../python\robot-simulator\robot_simulator_test.py	/^    def test_advance_positive_east(self):$/;"	kind:member	line:43
+test_advance_positive_north	../python\robot-simulator\robot_simulator_test.py	/^    def test_advance_positive_north(self):$/;"	kind:member	line:31
+test_allergic_to_eggs_and_peanuts	../python\allergies\allergies_test.py	/^    def test_allergic_to_eggs_and_peanuts(self):$/;"	kind:member	line:40
+test_allergic_to_eggs_in_addition_to_other_stuff	../python\allergies\allergies_test.py	/^    def test_allergic_to_eggs_in_addition_to_other_stuff(self):$/;"	kind:member	line:22
+test_allergic_to_everything	../python\allergies\allergies_test.py	/^    def test_allergic_to_everything(self):$/;"	kind:member	line:51
+test_allergic_to_just_eggs	../python\allergies\allergies_test.py	/^    def test_allergic_to_just_eggs(self):$/;"	kind:member	line:31
+test_allergic_to_just_peanuts	../python\allergies\allergies_test.py	/^    def test_allergic_to_just_peanuts(self):$/;"	kind:member	line:34
+test_allergic_to_just_strawberries	../python\allergies\allergies_test.py	/^    def test_allergic_to_just_strawberries(self):$/;"	kind:member	line:37
+test_allergic_to_lots_of_stuff	../python\allergies\allergies_test.py	/^    def test_allergic_to_lots_of_stuff(self):$/;"	kind:member	line:46
+test_allergic_to_more_than_eggs_but_not_peanuts	../python\allergies\allergies_test.py	/^    def test_allergic_to_more_than_eggs_but_not_peanuts(self):$/;"	kind:member	line:43
+test_alternate_silence	../python\bob\bob_test.py	/^    def test_alternate_silence(self):$/;"	kind:member	line:75
+test_anagrams_must_use_all_letters_exactly_once	../python\anagram\anagram_test.py	/^    def test_anagrams_must_use_all_letters_exactly_once(self):$/;"	kind:member	line:68
+test_another_date_only_specification_of_time	../python\gigasecond\gigasecond_test.py	/^    def test_another_date_only_specification_of_time(self):$/;"	kind:member	line:16
+test_another_missing_character_x	../python\pangram\pangram_test.py	/^    def test_another_missing_character_x(self):$/;"	kind:member	line:23
+test_apostrophes	../python\word-count\word_count_test.py	/^    def test_apostrophes(self):$/;"	kind:member	line:56
+test_asking_a_numeric_question	../python\bob\bob_test.py	/^    def test_asking_a_numeric_question(self):$/;"	kind:member	line:22
+test_asking_a_question	../python\bob\bob_test.py	/^    def test_asking_a_question(self):$/;"	kind:member	line:18
+test_asking_gibberish	../python\bob\bob_test.py	/^    def test_asking_gibberish(self):$/;"	kind:member	line:25
+test_capital_word_is_not_own_anagram	../python\anagram\anagram_test.py	/^    def test_capital_word_is_not_own_anagram(self):$/;"	kind:member	line:71
+test_combination	../python\run-length-encoding\run_length_encoding_test.py	/^    def test_combination(self):$/;"	kind:member	line:49
+test_complete_distance_in_single_nucleotide_strands	../python\hamming\hamming_test.py	/^    def test_complete_distance_in_single_nucleotide_strands(self):$/;"	kind:member	line:19
+test_complete_distance_in_small_strands	../python\hamming\hamming_test.py	/^    def test_complete_distance_in_small_strands(self):$/;"	kind:member	line:22
+test_correctly_handles_completely_invalid_input	../python\rna-transcription\rna_transcription_test.py	/^    def test_correctly_handles_completely_invalid_input(self):$/;"	kind:member	line:29
+test_correctly_handles_partially_invalid_input	../python\rna-transcription\rna_transcription_test.py	/^    def test_correctly_handles_partially_invalid_input(self):$/;"	kind:member	line:33
+test_correctly_handles_single_invalid_input	../python\rna-transcription\rna_transcription_test.py	/^    def test_correctly_handles_single_invalid_input(self):$/;"	kind:member	line:25
+test_count_multiple_occurences	../python\word-count\word_count_test.py	/^    def test_count_multiple_occurences(self):$/;"	kind:member	line:20
+test_count_one_of_each	../python\word-count\word_count_test.py	/^    def test_count_one_of_each(self):$/;"	kind:member	line:14
+test_count_one_word	../python\word-count\word_count_test.py	/^    def test_count_one_word(self):$/;"	kind:member	line:8
+test_cramped_list	../python\word-count\word_count_test.py	/^    def test_cramped_list(self):$/;"	kind:member	line:26
+test_date_only_specification_of_time	../python\gigasecond\gigasecond_test.py	/^    def test_date_only_specification_of_time(self):$/;"	kind:member	line:11
+test_decode_all_the_letters	../python\atbash-cipher\atbash_cipher_test.py	/^    def test_decode_all_the_letters(self):$/;"	kind:member	line:49
+test_decode_empty_string	../python\run-length-encoding\run_length_encoding_test.py	/^    def test_decode_empty_string(self):$/;"	kind:member	line:29
+test_decode_lower_case_string	../python\run-length-encoding\run_length_encoding_test.py	/^    def test_decode_lower_case_string(self):$/;"	kind:member	line:46
+test_decode_multiple_whitespace_mixed_in_string	../python\run-length-encoding\run_length_encoding_test.py	/^    def test_decode_multiple_whitespace_mixed_in_string(self):$/;"	kind:member	line:43
+test_decode_numbers	../python\atbash-cipher\atbash_cipher_test.py	/^    def test_decode_numbers(self):$/;"	kind:member	line:45
+test_decode_sentence	../python\atbash-cipher\atbash_cipher_test.py	/^    def test_decode_sentence(self):$/;"	kind:member	line:40
+test_decode_single_characters_only	../python\run-length-encoding\run_length_encoding_test.py	/^    def test_decode_single_characters_only(self):$/;"	kind:member	line:32
+test_decode_single_characters_with_repeated_characters	../python\run-length-encoding\run_length_encoding_test.py	/^    def test_decode_single_characters_with_repeated_characters(self):$/;"	kind:member	line:38
+test_decode_string_with_no_single_characters	../python\run-length-encoding\run_length_encoding_test.py	/^    def test_decode_string_with_no_single_characters(self):$/;"	kind:member	line:35
+test_decode_word	../python\atbash-cipher\atbash_cipher_test.py	/^    def test_decode_word(self):$/;"	kind:member	line:37
+test_detects_anagram	../python\anagram\anagram_test.py	/^    def test_detects_anagram(self):$/;"	kind:member	line:28
+test_detects_anagrams_case_insensitively	../python\anagram\anagram_test.py	/^    def test_detects_anagrams_case_insensitively(self):$/;"	kind:member	line:47
+test_detects_anagrams_using_case_insensitive_possible_matches	../python\anagram\anagram_test.py	/^    def test_detects_anagrams_using_case_insensitive_possible_matches(self):$/;"	kind:member	line:57
+test_detects_anagrams_using_case_insensitive_subjec	../python\anagram\anagram_test.py	/^    def test_detects_anagrams_using_case_insensitive_subjec(self):$/;"	kind:member	line:52
+test_detects_simple_anagram	../python\anagram\anagram_test.py	/^    def test_detects_simple_anagram(self):$/;"	kind:member	line:13
+test_detects_three_anagrams	../python\anagram\anagram_test.py	/^    def test_detects_three_anagrams(self):$/;"	kind:member	line:32
+test_detects_two_anagrams	../python\anagram\anagram_test.py	/^    def test_detects_two_anagrams(self):$/;"	kind:member	line:20
+test_difference_of_squares_1	../python\difference-of-squares\difference_of_squares_test.py	/^    def test_difference_of_squares_1(self):$/;"	kind:member	line:27
+test_difference_of_squares_100	../python\difference-of-squares\difference_of_squares_test.py	/^    def test_difference_of_squares_100(self):$/;"	kind:member	line:33
+test_difference_of_squares_5	../python\difference-of-squares\difference_of_squares_test.py	/^    def test_difference_of_squares_5(self):$/;"	kind:member	line:30
+test_disallow_first_strand_longer	../python\hamming\hamming_test.py	/^    def test_disallow_first_strand_longer(self):$/;"	kind:member	line:49
+test_disallow_second_strand_longer	../python\hamming\hamming_test.py	/^    def test_disallow_second_strand_longer(self):$/;"	kind:member	line:53
+test_does_not_detect_a_anagram_if_the_original_word_is_repeated	../python\anagram\anagram_test.py	/^    def test_does_not_detect_a_anagram_if_the_original_word_is_repeated(self):$/;"	kind:member	line:65
+test_does_not_detect_a_word_as_its_own_anagram	../python\anagram\anagram_test.py	/^    def test_does_not_detect_a_word_as_its_own_anagram(self):$/;"	kind:member	line:62
+test_does_not_detect_anagram_subsets	../python\anagram\anagram_test.py	/^    def test_does_not_detect_anagram_subsets(self):$/;"	kind:member	line:25
+test_does_not_detect_false_positives	../python\anagram\anagram_test.py	/^    def test_does_not_detect_false_positives(self):$/;"	kind:member	line:17
+test_does_not_detect_identical_words	../python\anagram\anagram_test.py	/^    def test_does_not_detect_identical_words(self):$/;"	kind:member	line:40
+test_does_not_detect_non_anagrams_with_identical_checksum	../python\anagram\anagram_test.py	/^    def test_does_not_detect_non_anagrams_with_identical_checksum(self):$/;"	kind:member	line:44
+test_duplicated_character_in_the_middle	../python\isogram\isogram_test.py	/^    def test_duplicated_character_in_the_middle(self):$/;"	kind:member	line:34
+test_empty_strands	../python\hamming\hamming_test.py	/^    def test_empty_strands(self):$/;"	kind:member	line:10
+test_empty_string	../python\isogram\isogram_test.py	/^    def test_empty_string(self):$/;"	kind:member	line:10
+test_encode_OMG	../python\atbash-cipher\atbash_cipher_test.py	/^    def test_encode_OMG(self):$/;"	kind:member	line:15
+test_encode_O_M_G	../python\atbash-cipher\atbash_cipher_test.py	/^    def test_encode_O_M_G(self):$/;"	kind:member	line:18
+test_encode_all_things	../python\atbash-cipher\atbash_cipher_test.py	/^    def test_encode_all_things(self):$/;"	kind:member	line:32
+test_encode_decode	../python\atbash-cipher\atbash_cipher_test.py	/^    def test_encode_decode(self):$/;"	kind:member	line:55
+test_encode_empty_string	../python\run-length-encoding\run_length_encoding_test.py	/^    def test_encode_empty_string(self):$/;"	kind:member	line:9
+test_encode_long_word	../python\atbash-cipher\atbash_cipher_test.py	/^    def test_encode_long_word(self):$/;"	kind:member	line:21
+test_encode_lowercase_characters	../python\run-length-encoding\run_length_encoding_test.py	/^    def test_encode_lowercase_characters(self):$/;"	kind:member	line:26
+test_encode_multiple_whitespace_mixed_in_string	../python\run-length-encoding\run_length_encoding_test.py	/^    def test_encode_multiple_whitespace_mixed_in_string(self):$/;"	kind:member	line:23
+test_encode_no	../python\atbash-cipher\atbash_cipher_test.py	/^    def test_encode_no(self):$/;"	kind:member	line:9
+test_encode_numbers	../python\atbash-cipher\atbash_cipher_test.py	/^    def test_encode_numbers(self):$/;"	kind:member	line:24
+test_encode_sentence	../python\atbash-cipher\atbash_cipher_test.py	/^    def test_encode_sentence(self):$/;"	kind:member	line:28
+test_encode_single_characters_mixed_with_repeated_characters	../python\run-length-encoding\run_length_encoding_test.py	/^    def test_encode_single_characters_mixed_with_repeated_characters(self):$/;"	kind:member	line:18
+test_encode_single_characters_only_are_encoded_without_count	../python\run-length-encoding\run_length_encoding_test.py	/^    def test_encode_single_characters_only_are_encoded_without_count(self):$/;"	kind:member	line:12
+test_encode_string_with_no_single_characters	../python\run-length-encoding\run_length_encoding_test.py	/^    def test_encode_string_with_no_single_characters(self):$/;"	kind:member	line:15
+test_encode_yes	../python\atbash-cipher\atbash_cipher_test.py	/^    def test_encode_yes(self):$/;"	kind:member	line:12
+test_ending_with_whitespace	../python\bob\bob_test.py	/^    def test_ending_with_whitespace(self):$/;"	kind:member	line:86
+test_expanded_list	../python\word-count\word_count_test.py	/^    def test_expanded_list(self):$/;"	kind:member	line:32
+test_fifth_monday_of_march_2015	../python\meetup\meetup_test.py	/^    def test_fifth_monday_of_march_2015(self):$/;"	kind:member	line:397
+test_find_first_prime	../python\sieve\sieve_test.py	/^    def test_find_first_prime(self):$/;"	kind:member	line:12
+test_find_primes_up_to_10	../python\sieve\sieve_test.py	/^    def test_find_primes_up_to_10(self):$/;"	kind:member	line:15
+test_find_primes_up_to_1000	../python\sieve\sieve_test.py	/^    def test_find_primes_up_to_1000(self):$/;"	kind:member	line:21
+test_first_friday_of_december_2012	../python\meetup\meetup_test.py	/^    def test_first_friday_of_december_2012(self):$/;"	kind:member	line:392
+test_first_friday_of_december_2013	../python\meetup\meetup_test.py	/^    def test_first_friday_of_december_2013(self):$/;"	kind:member	line:136
+test_first_friday_of_november_2013	../python\meetup\meetup_test.py	/^    def test_first_friday_of_november_2013(self):$/;"	kind:member	line:132
+test_first_monday_of_april_2013	../python\meetup\meetup_test.py	/^    def test_first_monday_of_april_2013(self):$/;"	kind:member	line:104
+test_first_monday_of_march_2013	../python\meetup\meetup_test.py	/^    def test_first_monday_of_march_2013(self):$/;"	kind:member	line:100
+test_first_saturday_of_february_2013	../python\meetup\meetup_test.py	/^    def test_first_saturday_of_february_2013(self):$/;"	kind:member	line:144
+test_first_saturday_of_january_2013	../python\meetup\meetup_test.py	/^    def test_first_saturday_of_january_2013(self):$/;"	kind:member	line:140
+test_first_sunday_of_april_2013	../python\meetup\meetup_test.py	/^    def test_first_sunday_of_april_2013(self):$/;"	kind:member	line:152
+test_first_sunday_of_march_2013	../python\meetup\meetup_test.py	/^    def test_first_sunday_of_march_2013(self):$/;"	kind:member	line:148
+test_first_thursday_of_october_2013	../python\meetup\meetup_test.py	/^    def test_first_thursday_of_october_2013(self):$/;"	kind:member	line:128
+test_first_thursday_of_september_2013	../python\meetup\meetup_test.py	/^    def test_first_thursday_of_september_2013(self):$/;"	kind:member	line:124
+test_first_tuesday_of_june_2013	../python\meetup\meetup_test.py	/^    def test_first_tuesday_of_june_2013(self):$/;"	kind:member	line:112
+test_first_tuesday_of_may_2013	../python\meetup\meetup_test.py	/^    def test_first_tuesday_of_may_2013(self):$/;"	kind:member	line:108
+test_first_wednesday_of_august_2013	../python\meetup\meetup_test.py	/^    def test_first_wednesday_of_august_2013(self):$/;"	kind:member	line:120
+test_first_wednesday_of_july_2013	../python\meetup\meetup_test.py	/^    def test_first_wednesday_of_july_2013(self):$/;"	kind:member	line:116
+test_forceful_question	../python\bob\bob_test.py	/^    def test_forceful_question(self):$/;"	kind:member	line:37
+test_fourth_friday_of_december_2013	../python\meetup\meetup_test.py	/^    def test_fourth_friday_of_december_2013(self):$/;"	kind:member	line:304
+test_fourth_friday_of_november_2013	../python\meetup\meetup_test.py	/^    def test_fourth_friday_of_november_2013(self):$/;"	kind:member	line:300
+test_fourth_monday_of_april_2013	../python\meetup\meetup_test.py	/^    def test_fourth_monday_of_april_2013(self):$/;"	kind:member	line:272
+test_fourth_monday_of_march_2013	../python\meetup\meetup_test.py	/^    def test_fourth_monday_of_march_2013(self):$/;"	kind:member	line:268
+test_fourth_saturday_of_february_2013	../python\meetup\meetup_test.py	/^    def test_fourth_saturday_of_february_2013(self):$/;"	kind:member	line:312
+test_fourth_saturday_of_january_2013	../python\meetup\meetup_test.py	/^    def test_fourth_saturday_of_january_2013(self):$/;"	kind:member	line:308
+test_fourth_sunday_of_april_2013	../python\meetup\meetup_test.py	/^    def test_fourth_sunday_of_april_2013(self):$/;"	kind:member	line:320
+test_fourth_sunday_of_march_2013	../python\meetup\meetup_test.py	/^    def test_fourth_sunday_of_march_2013(self):$/;"	kind:member	line:316
+test_fourth_thursday_of_october_2013	../python\meetup\meetup_test.py	/^    def test_fourth_thursday_of_october_2013(self):$/;"	kind:member	line:296
+test_fourth_thursday_of_september_2013	../python\meetup\meetup_test.py	/^    def test_fourth_thursday_of_september_2013(self):$/;"	kind:member	line:292
+test_fourth_tuesday_of_june_2013	../python\meetup\meetup_test.py	/^    def test_fourth_tuesday_of_june_2013(self):$/;"	kind:member	line:280
+test_fourth_tuesday_of_may_2013	../python\meetup\meetup_test.py	/^    def test_fourth_tuesday_of_may_2013(self):$/;"	kind:member	line:276
+test_fourth_wednesday_of_august_2013	../python\meetup\meetup_test.py	/^    def test_fourth_wednesday_of_august_2013(self):$/;"	kind:member	line:288
+test_fourth_wednesday_of_july_2013	../python\meetup\meetup_test.py	/^    def test_fourth_wednesday_of_july_2013(self):$/;"	kind:member	line:284
+test_friteenth_of_april_2013	../python\meetup\meetup_test.py	/^    def test_friteenth_of_april_2013(self):$/;"	kind:member	line:64
+test_friteenth_of_august_2013	../python\meetup\meetup_test.py	/^    def test_friteenth_of_august_2013(self):$/;"	kind:member	line:68
+test_friteenth_of_september_2013	../python\meetup\meetup_test.py	/^    def test_friteenth_of_september_2013(self):$/;"	kind:member	line:72
+test_full_time_specified	../python\gigasecond\gigasecond_test.py	/^    def test_full_time_specified(self):$/;"	kind:member	line:26
+test_full_time_with_day_roll_over	../python\gigasecond\gigasecond_test.py	/^    def test_full_time_with_day_roll_over(self):$/;"	kind:member	line:31
+test_hello	../python\hello-world\hello_world_test.py	/^    def test_hello(self):$/;"	kind:member	line:9
+test_hypothetical_isogrammic_word_with_hyphen	../python\isogram\isogram_test.py	/^    def test_hypothetical_isogrammic_word_with_hyphen(self):$/;"	kind:member	line:25
+test_identical_strands	../python\hamming\hamming_test.py	/^    def test_identical_strands(self):$/;"	kind:member	line:13
+test_ignore_non_allergen_score_parts	../python\allergies\allergies_test.py	/^    def test_ignore_non_allergen_score_parts(self):$/;"	kind:member	line:61
+test_ignore_non_allergen_score_parts_only_eggs	../python\allergies\allergies_test.py	/^    def test_ignore_non_allergen_score_parts_only_eggs(self):$/;"	kind:member	line:58
+test_ignores_punctuation	../python\word-count\word_count_test.py	/^    def test_ignores_punctuation(self):$/;"	kind:member	line:38
+test_include_numbers	../python\word-count\word_count_test.py	/^    def test_include_numbers(self):$/;"	kind:member	line:44
+test_init	../python\robot-simulator\robot_simulator_test.py	/^    def test_init(self):$/;"	kind:member	line:9
+test_is_allergic_to_eggs	../python\allergies\allergies_test.py	/^    def test_is_allergic_to_eggs(self):$/;"	kind:member	line:19
+test_isogram_with_duplicated_hyphen	../python\isogram\isogram_test.py	/^    def test_isogram_with_duplicated_hyphen(self):$/;"	kind:member	line:28
+test_isogram_with_duplicated_letter_and_nonletter_character	../python\isogram\isogram_test.py	/^    def test_isogram_with_duplicated_letter_and_nonletter_character(self):$/;"	kind:member	line:39
+test_isogram_with_only_lower_case_characters	../python\isogram\isogram_test.py	/^    def test_isogram_with_only_lower_case_characters(self):$/;"	kind:member	line:13
+test_large_distance	../python\hamming\hamming_test.py	/^    def test_large_distance(self):$/;"	kind:member	line:43
+test_large_distance_in_off_by_one_strand	../python\hamming\hamming_test.py	/^    def test_large_distance_in_off_by_one_strand(self):$/;"	kind:member	line:46
+test_last_friday_of_december_2013	../python\meetup\meetup_test.py	/^    def test_last_friday_of_december_2013(self):$/;"	kind:member	line:360
+test_last_friday_of_november_2013	../python\meetup\meetup_test.py	/^    def test_last_friday_of_november_2013(self):$/;"	kind:member	line:356
+test_last_monday_of_april_2013	../python\meetup\meetup_test.py	/^    def test_last_monday_of_april_2013(self):$/;"	kind:member	line:328
+test_last_monday_of_march_2013	../python\meetup\meetup_test.py	/^    def test_last_monday_of_march_2013(self):$/;"	kind:member	line:324
+test_last_saturday_of_february_2013	../python\meetup\meetup_test.py	/^    def test_last_saturday_of_february_2013(self):$/;"	kind:member	line:368
+test_last_saturday_of_january_2013	../python\meetup\meetup_test.py	/^    def test_last_saturday_of_january_2013(self):$/;"	kind:member	line:364
+test_last_sunday_of_april_2013	../python\meetup\meetup_test.py	/^    def test_last_sunday_of_april_2013(self):$/;"	kind:member	line:376
+test_last_sunday_of_february_2015	../python\meetup\meetup_test.py	/^    def test_last_sunday_of_february_2015(self):$/;"	kind:member	line:388
+test_last_sunday_of_march_2013	../python\meetup\meetup_test.py	/^    def test_last_sunday_of_march_2013(self):$/;"	kind:member	line:372
+test_last_thursday_of_october_2013	../python\meetup\meetup_test.py	/^    def test_last_thursday_of_october_2013(self):$/;"	kind:member	line:352
+test_last_thursday_of_september_2013	../python\meetup\meetup_test.py	/^    def test_last_thursday_of_september_2013(self):$/;"	kind:member	line:348
+test_last_tuesday_of_june_2013	../python\meetup\meetup_test.py	/^    def test_last_tuesday_of_june_2013(self):$/;"	kind:member	line:336
+test_last_tuesday_of_may_2013	../python\meetup\meetup_test.py	/^    def test_last_tuesday_of_may_2013(self):$/;"	kind:member	line:332
+test_last_wednesday_of_august_2013	../python\meetup\meetup_test.py	/^    def test_last_wednesday_of_august_2013(self):$/;"	kind:member	line:344
+test_last_wednesday_of_december_2014	../python\meetup\meetup_test.py	/^    def test_last_wednesday_of_december_2014(self):$/;"	kind:member	line:384
+test_last_wednesday_of_february_2012	../python\meetup\meetup_test.py	/^    def test_last_wednesday_of_february_2012(self):$/;"	kind:member	line:380
+test_last_wednesday_of_july_2013	../python\meetup\meetup_test.py	/^    def test_last_wednesday_of_july_2013(self):$/;"	kind:member	line:340
+test_limit_is_prime	../python\sieve\sieve_test.py	/^    def test_limit_is_prime(self):$/;"	kind:member	line:18
+test_long_identical_strands	../python\hamming\hamming_test.py	/^    def test_long_identical_strands(self):$/;"	kind:member	line:16
+test_longest_reported_english_isogram	../python\isogram\isogram_test.py	/^    def test_longest_reported_english_isogram(self):$/;"	kind:member	line:19
+test_made_up_name_that_is_an_isogram	../python\isogram\isogram_test.py	/^    def test_made_up_name_that_is_an_isogram(self):$/;"	kind:member	line:31
+test_missing_character_x	../python\pangram\pangram_test.py	/^    def test_missing_character_x(self):$/;"	kind:member	line:17
+test_missing_letters_replaced_by_numbers	../python\pangram\pangram_test.py	/^    def test_missing_letters_replaced_by_numbers(self):$/;"	kind:member	line:38
+test_mixed_case	../python\word-count\word_count_test.py	/^    def test_mixed_case(self):$/;"	kind:member	line:50
+test_monteenth_of_august_2013	../python\meetup\meetup_test.py	/^    def test_monteenth_of_august_2013(self):$/;"	kind:member	line:20
+test_monteenth_of_may_2013	../python\meetup\meetup_test.py	/^    def test_monteenth_of_may_2013(self):$/;"	kind:member	line:16
+test_monteenth_of_september_2013	../python\meetup\meetup_test.py	/^    def test_monteenth_of_september_2013(self):$/;"	kind:member	line:24
+test_multiple_line_question	../python\bob\bob_test.py	/^    def test_multiple_line_question(self):$/;"	kind:member	line:78
+test_multiple_spaces	../python\word-count\word_count_test.py	/^    def test_multiple_spaces(self):$/;"	kind:member	line:71
+test_multiples_of_1_up_to_100	../python\sum-of-multiples\sum_of_multiples_test.py	/^    def test_multiples_of_1_up_to_100(self):$/;"	kind:member	line:51
+test_multiples_of_3_or_5_up_to_1	../python\sum-of-multiples\sum_of_multiples_test.py	/^    def test_multiples_of_3_or_5_up_to_1(self):$/;"	kind:member	line:18
+test_multiples_of_3_or_5_up_to_10	../python\sum-of-multiples\sum_of_multiples_test.py	/^    def test_multiples_of_3_or_5_up_to_10(self):$/;"	kind:member	line:27
+test_multiples_of_3_or_5_up_to_100	../python\sum-of-multiples\sum_of_multiples_test.py	/^    def test_multiples_of_3_or_5_up_to_100(self):$/;"	kind:member	line:30
+test_multiples_of_3_or_5_up_to_1000	../python\sum-of-multiples\sum_of_multiples_test.py	/^    def test_multiples_of_3_or_5_up_to_1000(self):$/;"	kind:member	line:33
+test_multiples_of_3_or_5_up_to_4	../python\sum-of-multiples\sum_of_multiples_test.py	/^    def test_multiples_of_3_or_5_up_to_4(self):$/;"	kind:member	line:21
+test_multiples_of_3_up_to_7	../python\sum-of-multiples\sum_of_multiples_test.py	/^    def test_multiples_of_3_up_to_7(self):$/;"	kind:member	line:24
+test_multiples_of_43_or_47_up_to_10000	../python\sum-of-multiples\sum_of_multiples_test.py	/^    def test_multiples_of_43_or_47_up_to_10000(self):$/;"	kind:member	line:48
+test_multiples_of_4_or_6_up_to_15	../python\sum-of-multiples\sum_of_multiples_test.py	/^    def test_multiples_of_4_or_6_up_to_15(self):$/;"	kind:member	line:39
+test_multiples_of_5_6_or_8_up_to_150	../python\sum-of-multiples\sum_of_multiples_test.py	/^    def test_multiples_of_5_6_or_8_up_to_150(self):$/;"	kind:member	line:42
+test_multiples_of_5_or_25_up_to_51	../python\sum-of-multiples\sum_of_multiples_test.py	/^    def test_multiples_of_5_or_25_up_to_51(self):$/;"	kind:member	line:45
+test_multiples_of_7_13_or_17_up_to_20	../python\sum-of-multiples\sum_of_multiples_test.py	/^    def test_multiples_of_7_13_or_17_up_to_20(self):$/;"	kind:member	line:36
+test_multiples_of_an_empty_list_up_to_10000	../python\sum-of-multiples\sum_of_multiples_test.py	/^    def test_multiples_of_an_empty_list_up_to_10000(self):$/;"	kind:member	line:54
+test_newlines	../python\word-count\word_count_test.py	/^    def test_newlines(self):$/;"	kind:member	line:77
+test_no_allergies_at_all	../python\allergies\allergies_test.py	/^    def test_no_allergies_at_all(self):$/;"	kind:member	line:28
+test_no_allergies_means_not_allergic	../python\allergies\allergies_test.py	/^    def test_no_allergies_means_not_allergic(self):$/;"	kind:member	line:13
+test_no_matches	../python\anagram\anagram_test.py	/^    def test_no_matches(self):$/;"	kind:member	line:9
+test_no_primes_under_two	../python\sieve\sieve_test.py	/^    def test_no_primes_under_two(self):$/;"	kind:member	line:9
+test_non_alphanumeric	../python\word-count\word_count_test.py	/^    def test_non_alphanumeric(self):$/;"	kind:member	line:93
+test_non_letters_with_question	../python\bob\bob_test.py	/^    def test_non_letters_with_question(self):$/;"	kind:member	line:62
+test_non_question_ending_with_whitespace	../python\bob\bob_test.py	/^    def test_non_question_ending_with_whitespace(self):$/;"	kind:member	line:93
+test_non_unique_character_in_first_strand	../python\hamming\hamming_test.py	/^    def test_non_unique_character_in_first_strand(self):$/;"	kind:member	line:34
+test_non_unique_character_in_second_strand	../python\hamming\hamming_test.py	/^    def test_non_unique_character_in_second_strand(self):$/;"	kind:member	line:37
+test_nonexistent_fifth_monday_of_february_2015	../python\meetup\meetup_test.py	/^    def test_nonexistent_fifth_monday_of_february_2015(self):$/;"	kind:member	line:401
+test_one_more_date_only_specification_of_time	../python\gigasecond\gigasecond_test.py	/^    def test_one_more_date_only_specification_of_time(self):$/;"	kind:member	line:21
+test_only_numbers	../python\bob\bob_test.py	/^    def test_only_numbers(self):$/;"	kind:member	line:44
+test_other_whitespace	../python\bob\bob_test.py	/^    def test_other_whitespace(self):$/;"	kind:member	line:90
+test_overly_long_slice	../python\series\series_test.py	/^    def test_overly_long_slice(self):$/;"	kind:member	line:39
+test_overly_short_slice	../python\series\series_test.py	/^    def test_overly_short_slice(self):$/;"	kind:member	line:43
+test_pangram_with_mixedcase_and_punctuation	../python\pangram\pangram_test.py	/^    def test_pangram_with_mixedcase_and_punctuation(self):$/;"	kind:member	line:43
+test_pangram_with_numbers	../python\pangram\pangram_test.py	/^    def test_pangram_with_numbers(self):$/;"	kind:member	line:33
+test_pangram_with_only_lower_case	../python\pangram\pangram_test.py	/^    def test_pangram_with_only_lower_case(self):$/;"	kind:member	line:12
+test_pangram_with_underscores	../python\pangram\pangram_test.py	/^    def test_pangram_with_underscores(self):$/;"	kind:member	line:28
+test_prattling_on	../python\bob\bob_test.py	/^    def test_prattling_on(self):$/;"	kind:member	line:65
+test_prolonged_silence	../python\bob\bob_test.py	/^    def test_prolonged_silence(self):$/;"	kind:member	line:72
+test_question_with_only_numbers	../python\bob\bob_test.py	/^    def test_question_with_only_numbers(self):$/;"	kind:member	line:47
+test_quotations	../python\word-count\word_count_test.py	/^    def test_quotations(self):$/;"	kind:member	line:62
+test_rotate_a_by_0	../python\rotational-cipher\rotational_cipher_test.py	/^    def test_rotate_a_by_0(self):$/;"	kind:member	line:9
+test_rotate_a_by_1	../python\rotational-cipher\rotational_cipher_test.py	/^    def test_rotate_a_by_1(self):$/;"	kind:member	line:12
+test_rotate_a_by_26	../python\rotational-cipher\rotational_cipher_test.py	/^    def test_rotate_a_by_26(self):$/;"	kind:member	line:15
+test_rotate_all_letters	../python\rotational-cipher\rotational_cipher_test.py	/^    def test_rotate_all_letters(self):$/;"	kind:member	line:40
+test_rotate_capital_letters	../python\rotational-cipher\rotational_cipher_test.py	/^    def test_rotate_capital_letters(self):$/;"	kind:member	line:24
+test_rotate_m_by_13	../python\rotational-cipher\rotational_cipher_test.py	/^    def test_rotate_m_by_13(self):$/;"	kind:member	line:18
+test_rotate_n_by_13_with_wrap_around_alphabet	../python\rotational-cipher\rotational_cipher_test.py	/^    def test_rotate_n_by_13_with_wrap_around_alphabet(self):$/;"	kind:member	line:21
+test_rotate_numbers	../python\rotational-cipher\rotational_cipher_test.py	/^    def test_rotate_numbers(self):$/;"	kind:member	line:30
+test_rotate_punctuation	../python\rotational-cipher\rotational_cipher_test.py	/^    def test_rotate_punctuation(self):$/;"	kind:member	line:35
+test_rotate_spaces	../python\rotational-cipher\rotational_cipher_test.py	/^    def test_rotate_spaces(self):$/;"	kind:member	line:27
+test_same_nucleotides_in_different_positions	../python\hamming\hamming_test.py	/^    def test_same_nucleotides_in_different_positions(self):$/;"	kind:member	line:40
+test_saturteenth_of_april_2013	../python\meetup\meetup_test.py	/^    def test_saturteenth_of_april_2013(self):$/;"	kind:member	line:80
+test_saturteenth_of_february_2013	../python\meetup\meetup_test.py	/^    def test_saturteenth_of_february_2013(self):$/;"	kind:member	line:76
+test_saturteenth_of_october_2013	../python\meetup\meetup_test.py	/^    def test_saturteenth_of_october_2013(self):$/;"	kind:member	line:84
+test_second_friday_of_december_2013	../python\meetup\meetup_test.py	/^    def test_second_friday_of_december_2013(self):$/;"	kind:member	line:192
+test_second_friday_of_november_2013	../python\meetup\meetup_test.py	/^    def test_second_friday_of_november_2013(self):$/;"	kind:member	line:188
+test_second_monday_of_april_2013	../python\meetup\meetup_test.py	/^    def test_second_monday_of_april_2013(self):$/;"	kind:member	line:160
+test_second_monday_of_march_2013	../python\meetup\meetup_test.py	/^    def test_second_monday_of_march_2013(self):$/;"	kind:member	line:156
+test_second_saturday_of_february_2013	../python\meetup\meetup_test.py	/^    def test_second_saturday_of_february_2013(self):$/;"	kind:member	line:200
+test_second_saturday_of_january_2013	../python\meetup\meetup_test.py	/^    def test_second_saturday_of_january_2013(self):$/;"	kind:member	line:196
+test_second_sunday_of_april_2013	../python\meetup\meetup_test.py	/^    def test_second_sunday_of_april_2013(self):$/;"	kind:member	line:208
+test_second_sunday_of_march_2013	../python\meetup\meetup_test.py	/^    def test_second_sunday_of_march_2013(self):$/;"	kind:member	line:204
+test_second_thursday_of_october_2013	../python\meetup\meetup_test.py	/^    def test_second_thursday_of_october_2013(self):$/;"	kind:member	line:184
+test_second_thursday_of_september_2013	../python\meetup\meetup_test.py	/^    def test_second_thursday_of_september_2013(self):$/;"	kind:member	line:180
+test_second_tuesday_of_june_2013	../python\meetup\meetup_test.py	/^    def test_second_tuesday_of_june_2013(self):$/;"	kind:member	line:168
+test_second_tuesday_of_may_2013	../python\meetup\meetup_test.py	/^    def test_second_tuesday_of_may_2013(self):$/;"	kind:member	line:164
+test_second_wednesday_of_august_2013	../python\meetup\meetup_test.py	/^    def test_second_wednesday_of_august_2013(self):$/;"	kind:member	line:176
+test_second_wednesday_of_july_2013	../python\meetup\meetup_test.py	/^    def test_second_wednesday_of_july_2013(self):$/;"	kind:member	line:172
+test_sentence_empty	../python\pangram\pangram_test.py	/^    def test_sentence_empty(self):$/;"	kind:member	line:9
+test_setup	../python\robot-simulator\robot_simulator_test.py	/^    def test_setup(self):$/;"	kind:member	line:14
+test_shouting	../python\bob\bob_test.py	/^    def test_shouting(self):$/;"	kind:member	line:12
+test_shouting_gibberish	../python\bob\bob_test.py	/^    def test_shouting_gibberish(self):$/;"	kind:member	line:15
+test_shouting_numbers	../python\bob\bob_test.py	/^    def test_shouting_numbers(self):$/;"	kind:member	line:41
+test_shouting_with_no_exclamation_mark	../python\bob\bob_test.py	/^    def test_shouting_with_no_exclamation_mark(self):$/;"	kind:member	line:55
+test_shouting_with_special_characters	../python\bob\bob_test.py	/^    def test_shouting_with_special_characters(self):$/;"	kind:member	line:50
+test_silence	../python\bob\bob_test.py	/^    def test_silence(self):$/;"	kind:member	line:69
+test_simulate_prog1	../python\robot-simulator\robot_simulator_test.py	/^    def test_simulate_prog1(self):$/;"	kind:member	line:55
+test_simulate_prog2	../python\robot-simulator\robot_simulator_test.py	/^    def test_simulate_prog2(self):$/;"	kind:member	line:61
+test_simulate_prog3	../python\robot-simulator\robot_simulator_test.py	/^    def test_simulate_prog3(self):$/;"	kind:member	line:67
+test_slices_of_five	../python\series\series_test.py	/^    def test_slices_of_five(self):$/;"	kind:member	line:34
+test_slices_of_four	../python\series\series_test.py	/^    def test_slices_of_four(self):$/;"	kind:member	line:29
+test_slices_of_one	../python\series\series_test.py	/^    def test_slices_of_one(self):$/;"	kind:member	line:13
+test_slices_of_three	../python\series\series_test.py	/^    def test_slices_of_three(self):$/;"	kind:member	line:23
+test_slices_of_two	../python\series\series_test.py	/^    def test_slices_of_two(self):$/;"	kind:member	line:18
+test_small_distance	../python\hamming\hamming_test.py	/^    def test_small_distance(self):$/;"	kind:member	line:28
+test_small_distance_in_long_strands	../python\hamming\hamming_test.py	/^    def test_small_distance_in_long_strands(self):$/;"	kind:member	line:31
+test_small_distance_in_small_strands	../python\hamming\hamming_test.py	/^    def test_small_distance_in_small_strands(self):$/;"	kind:member	line:25
+test_square_of_sum_1	../python\difference-of-squares\difference_of_squares_test.py	/^    def test_square_of_sum_1(self):$/;"	kind:member	line:9
+test_square_of_sum_100	../python\difference-of-squares\difference_of_squares_test.py	/^    def test_square_of_sum_100(self):$/;"	kind:member	line:15
+test_square_of_sum_5	../python\difference-of-squares\difference_of_squares_test.py	/^    def test_square_of_sum_5(self):$/;"	kind:member	line:12
+test_starting_with_whitespace	../python\bob\bob_test.py	/^    def test_starting_with_whitespace(self):$/;"	kind:member	line:83
+test_statement_containing_question_mark	../python\bob\bob_test.py	/^    def test_statement_containing_question_mark(self):$/;"	kind:member	line:58
+test_stating_something	../python\bob\bob_test.py	/^    def test_stating_something(self):$/;"	kind:member	line:9
+test_sum_of_squares_1	../python\difference-of-squares\difference_of_squares_test.py	/^    def test_sum_of_squares_1(self):$/;"	kind:member	line:18
+test_sum_of_squares_100	../python\difference-of-squares\difference_of_squares_test.py	/^    def test_sum_of_squares_100(self):$/;"	kind:member	line:24
+test_sum_of_squares_5	../python\difference-of-squares\difference_of_squares_test.py	/^    def test_sum_of_squares_5(self):$/;"	kind:member	line:21
+test_sunteenth_of_june_2013	../python\meetup\meetup_test.py	/^    def test_sunteenth_of_june_2013(self):$/;"	kind:member	line:92
+test_sunteenth_of_may_2013	../python\meetup\meetup_test.py	/^    def test_sunteenth_of_may_2013(self):$/;"	kind:member	line:88
+test_sunteenth_of_october_2013	../python\meetup\meetup_test.py	/^    def test_sunteenth_of_october_2013(self):$/;"	kind:member	line:96
+test_tabs	../python\word-count\word_count_test.py	/^    def test_tabs(self):$/;"	kind:member	line:85
+test_talking_forcefully	../python\bob\bob_test.py	/^    def test_talking_forcefully(self):$/;"	kind:member	line:28
+test_third_friday_of_december_2013	../python\meetup\meetup_test.py	/^    def test_third_friday_of_december_2013(self):$/;"	kind:member	line:248
+test_third_friday_of_november_2013	../python\meetup\meetup_test.py	/^    def test_third_friday_of_november_2013(self):$/;"	kind:member	line:244
+test_third_monday_of_april_2013	../python\meetup\meetup_test.py	/^    def test_third_monday_of_april_2013(self):$/;"	kind:member	line:216
+test_third_monday_of_march_2013	../python\meetup\meetup_test.py	/^    def test_third_monday_of_march_2013(self):$/;"	kind:member	line:212
+test_third_saturday_of_february_2013	../python\meetup\meetup_test.py	/^    def test_third_saturday_of_february_2013(self):$/;"	kind:member	line:256
+test_third_saturday_of_january_2013	../python\meetup\meetup_test.py	/^    def test_third_saturday_of_january_2013(self):$/;"	kind:member	line:252
+test_third_sunday_of_april_2013	../python\meetup\meetup_test.py	/^    def test_third_sunday_of_april_2013(self):$/;"	kind:member	line:264
+test_third_sunday_of_march_2013	../python\meetup\meetup_test.py	/^    def test_third_sunday_of_march_2013(self):$/;"	kind:member	line:260
+test_third_thursday_of_october_2013	../python\meetup\meetup_test.py	/^    def test_third_thursday_of_october_2013(self):$/;"	kind:member	line:240
+test_third_thursday_of_september_2013	../python\meetup\meetup_test.py	/^    def test_third_thursday_of_september_2013(self):$/;"	kind:member	line:236
+test_third_tuesday_of_june_2013	../python\meetup\meetup_test.py	/^    def test_third_tuesday_of_june_2013(self):$/;"	kind:member	line:224
+test_third_tuesday_of_may_2013	../python\meetup\meetup_test.py	/^    def test_third_tuesday_of_may_2013(self):$/;"	kind:member	line:220
+test_third_wednesday_of_august_2013	../python\meetup\meetup_test.py	/^    def test_third_wednesday_of_august_2013(self):$/;"	kind:member	line:232
+test_third_wednesday_of_july_2013	../python\meetup\meetup_test.py	/^    def test_third_wednesday_of_july_2013(self):$/;"	kind:member	line:228
+test_thursteenth_of_june_2013	../python\meetup\meetup_test.py	/^    def test_thursteenth_of_june_2013(self):$/;"	kind:member	line:56
+test_thursteenth_of_may_2013	../python\meetup\meetup_test.py	/^    def test_thursteenth_of_may_2013(self):$/;"	kind:member	line:52
+test_thursteenth_of_september_2013	../python\meetup\meetup_test.py	/^    def test_thursteenth_of_september_2013(self):$/;"	kind:member	line:60
+test_transcribes_adenine_to_uracil	../python\rna-transcription\rna_transcription_test.py	/^    def test_transcribes_adenine_to_uracil(self):$/;"	kind:member	line:19
+test_transcribes_all_occurences	../python\rna-transcription\rna_transcription_test.py	/^    def test_transcribes_all_occurences(self):$/;"	kind:member	line:22
+test_transcribes_cytosine_to_guanine	../python\rna-transcription\rna_transcription_test.py	/^    def test_transcribes_cytosine_to_guanine(self):$/;"	kind:member	line:10
+test_transcribes_guanine_to_cytosine	../python\rna-transcription\rna_transcription_test.py	/^    def test_transcribes_guanine_to_cytosine(self):$/;"	kind:member	line:13
+test_transcribes_thymine_to_adenine	../python\rna-transcription\rna_transcription_test.py	/^    def test_transcribes_thymine_to_adenine(self):$/;"	kind:member	line:16
+test_tuesteenth_of_april_2013	../python\meetup\meetup_test.py	/^    def test_tuesteenth_of_april_2013(self):$/;"	kind:member	line:32
+test_tuesteenth_of_august_2013	../python\meetup\meetup_test.py	/^    def test_tuesteenth_of_august_2013(self):$/;"	kind:member	line:36
+test_tuesteenth_of_march_2013	../python\meetup\meetup_test.py	/^    def test_tuesteenth_of_march_2013(self):$/;"	kind:member	line:28
+test_turn_left	../python\robot-simulator\robot_simulator_test.py	/^    def test_turn_left(self):$/;"	kind:member	line:25
+test_turn_right	../python\robot-simulator\robot_simulator_test.py	/^    def test_turn_right(self):$/;"	kind:member	line:19
+test_upper_and_lower_case_versions_of_the_same_character	../python\pangram\pangram_test.py	/^    def test_upper_and_lower_case_versions_of_the_same_character(self):$/;"	kind:member	line:48
+test_using_acronyms_in_regular_speech	../python\bob\bob_test.py	/^    def test_using_acronyms_in_regular_speech(self):$/;"	kind:member	line:32
+test_wednesteenth_of_february_2013	../python\meetup\meetup_test.py	/^    def test_wednesteenth_of_february_2013(self):$/;"	kind:member	line:44
+test_wednesteenth_of_january_2013	../python\meetup\meetup_test.py	/^    def test_wednesteenth_of_january_2013(self):$/;"	kind:member	line:40
+test_wednesteenth_of_june_2013	../python\meetup\meetup_test.py	/^    def test_wednesteenth_of_june_2013(self):$/;"	kind:member	line:48
+test_word_with_duplicated_character_in_mixed_case	../python\isogram\isogram_test.py	/^    def test_word_with_duplicated_character_in_mixed_case(self):$/;"	kind:member	line:22
+test_word_with_one_duplicated_character	../python\isogram\isogram_test.py	/^    def test_word_with_one_duplicated_character(self):$/;"	kind:member	line:16
+test_year_divisible_by_100_not_divisible_by_400	../python\leap\leap_test.py	/^    def test_year_divisible_by_100_not_divisible_by_400(self):$/;"	kind:member	line:15
+test_year_divisible_by_400	../python\leap\leap_test.py	/^    def test_year_divisible_by_400(self):$/;"	kind:member	line:18
+test_year_divisible_by_4_not_divisible_by_100	../python\leap\leap_test.py	/^    def test_year_divisible_by_4_not_divisible_by_100(self):$/;"	kind:member	line:12
+test_year_not_divisible_by_4	../python\leap\leap_test.py	/^    def test_year_not_divisible_by_4(self):$/;"	kind:member	line:9
+test_yourself	../python\gigasecond\gigasecond_test.py	/^    def test_yourself(self):$/;"	kind:member	line:36
+timedelta	../python\gigasecond\gigasecond.py	/^from datetime import datetime, timedelta$/;"	kind:namespace	line:1
+to_rna	../python\rna-transcription\rna_transcription.py	/^def to_rna(dna: str) -> str:$/;"	kind:function	line:10
+to_rna	../python\rna-transcription\rna_transcription_test.py	/^from rna_transcription import to_rna$/;"	kind:namespace	line:3
+to_rnax	../python\rna-transcription\rna_transcription.py	/^def to_rnax(dna_strand):$/;"	kind:function	line:1
+transverse	../hackerrank\ctci-is-binary-search-tree-English\ctci-is-binary-search-tree-English.py	/^def transverse(node: Node=None):$/;"	kind:function	line:42
+turn_left	../python\robot-simulator\robot_simulator.py	/^    def turn_left(self):$/;"	kind:member	line:30
+turn_left_mappings	../python\robot-simulator\robot_simulator.py	/^    turn_left_mappings = dict(zip($/;"	kind:variable	line:15
+turn_right	../python\robot-simulator\robot_simulator.py	/^    def turn_right(self):$/;"	kind:member	line:27
+turn_right_mappings	../python\robot-simulator\robot_simulator.py	/^    turn_right_mappings = dict(zip($/;"	kind:variable	line:10
+unittest	../python\allergies\allergies_test.py	/^import unittest$/;"	kind:namespace	line:1
+unittest	../python\anagram\anagram_test.py	/^import unittest$/;"	kind:namespace	line:1
+unittest	../python\atbash-cipher\atbash_cipher_test.py	/^import unittest$/;"	kind:namespace	line:1
+unittest	../python\bob\bob_test.py	/^import unittest$/;"	kind:namespace	line:1
+unittest	../python\difference-of-squares\difference_of_squares_test.py	/^import unittest$/;"	kind:namespace	line:1
+unittest	../python\gigasecond\gigasecond_test.py	/^import unittest$/;"	kind:namespace	line:1
+unittest	../python\hamming\hamming_test.py	/^import unittest$/;"	kind:namespace	line:1
+unittest	../python\hello-world\hello_world_test.py	/^import unittest$/;"	kind:namespace	line:1
+unittest	../python\isogram\isogram_test.py	/^import unittest$/;"	kind:namespace	line:1
+unittest	../python\leap\leap_test.py	/^import unittest$/;"	kind:namespace	line:1
+unittest	../python\meetup\meetup_test.py	/^import unittest$/;"	kind:namespace	line:1
+unittest	../python\pangram\pangram_test.py	/^import unittest$/;"	kind:namespace	line:1
+unittest	../python\rna-transcription\rna_transcription_test.py	/^import unittest$/;"	kind:namespace	line:1
+unittest	../python\robot-simulator\robot_simulator_test.py	/^import unittest$/;"	kind:namespace	line:1
+unittest	../python\rotational-cipher\rotational_cipher_test.py	/^import unittest$/;"	kind:namespace	line:1
+unittest	../python\run-length-encoding\run_length_encoding_test.py	/^import unittest$/;"	kind:namespace	line:1
+unittest	../python\series\series_test.py	/^import unittest$/;"	kind:namespace	line:7
+unittest	../python\sieve\sieve_test.py	/^import unittest$/;"	kind:namespace	line:1
+unittest	../python\sum-of-multiples\sum_of_multiples_test.py	/^import unittest$/;"	kind:namespace	line:10
+unittest	../python\word-count\word_count_test.py	/^import unittest$/;"	kind:namespace	line:1
+walk	../hackerrank\ctci-is-binary-search-tree-English\ctci-is-binary-search-tree-English.py	/^    def walk(self):$/;"	kind:member	line:13
+word_count	../python\word-count\word_count.py	/^def word_count(phrase):$/;"	kind:function	line:6
+word_count	../python\word-count\word_count_test.py	/^from word_count import word_count$/;"	kind:namespace	line:3
+word_count.py	../python\word-count\word_count.py	1;"	kind:file	line:1
+word_count_test.py	../python\word-count\word_count_test.py	1;"	kind:file	line:1
+x	../python\play.py	/^x = [pdf_out.addPage(pdf_in.getPage(x)) for x in range(5, 9)]$/;"	kind:variable	line:55
+zip_longest	../python\atbash-cipher\atbash_cipher.py	/^from itertools import zip_longest$/;"	kind:namespace	line:1
