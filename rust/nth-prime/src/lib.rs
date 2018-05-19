@@ -1,24 +1,25 @@
 pub fn nth(n: u32) -> Option<u32> {
-    if n == 0 {
-        return None;
+    match n {
+        0 => None,
+        1 => Some(2),
+        2 => Some(3),
+        _ => (4..n * n)
+            .filter(|num| {
+                if num % 2 == 0 || num % 3 == 0 {
+                    return false;
+                }
+
+                let mut next = 5;
+                while next * next <= *num {
+                    if num % next == 0 || num % (next + 2) == 0 {
+                        return false;
+                    };
+
+                    next += 6;
+                }
+
+                true
+            })
+            .nth(n as usize - 3),
     }
-
-    let mut factors: Vec<u32> = vec![];
-    let mut count = 0;
-    let mut next = 2;
-
-    loop {
-        if factors.iter().fold(true, |acc, f| acc && next % f != 0) {
-            factors.push(next);
-            count += 1;
-
-            if count == n {
-                break;
-            };
-        }
-
-        next += 1;
-    }
-
-    Some(next)
 }
