@@ -29,6 +29,10 @@ version = "0.2.40"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
+name = "nth_prime"
+version = "1.0.0"
+
+[[package]]
 name = "num-integer"
 version = "0.1.38"
 source = "registry+https://github.com/rust-lang/crates.io-index"

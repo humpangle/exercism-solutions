@@ -4,5 +4,6 @@ members = [
   "rust/gigasecond",
   "rust/leap",
   "rust/raindrops",
-  "rust/reverse-string"
+  "rust/reverse-string",
+  "rust/nth-prime"
 ]
