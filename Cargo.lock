@@ -106,6 +106,10 @@ dependencies = [
 ]
 
 [[package]]
+name = "run-length-encoding"
+version = "1.1.0"
+
+[[package]]
 name = "saddle-points"
 version = "1.1.0"
 

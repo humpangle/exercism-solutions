@@ -22,4 +22,5 @@ members = [
   "rust/saddle-points",
   "rust/isogram",
   "rust/say",
+  "rust/run-length-encoding",
 ]
