@@ -8,5 +8,6 @@ members = [
   "rust/nth-prime",
   "rust/bob",
   "rust/beer-song",
-  "rust/proverb"
+  "rust/proverb",
+  "rust/difference-of-squares"
 ]
