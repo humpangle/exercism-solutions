@@ -13,5 +13,6 @@ members = [
   "rust/sum-of-multiples",
   "rust/grains",
   "rust/pythagorean-triplet",
-  "rust/prime-factors"
+  "rust/prime-factors",
+  "rust/series",
 ]
