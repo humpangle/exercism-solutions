@@ -12,5 +12,6 @@ members = [
   "rust/difference-of-squares",
   "rust/sum-of-multiples",
   "rust/grains",
-  "rust/pythagorean-triplet"
+  "rust/pythagorean-triplet",
+  "rust/prime-factors"
 ]
