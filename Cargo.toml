@@ -16,4 +16,5 @@ members = [
   "rust/prime-factors",
   "rust/series",
   "rust/armstrong-numbers",
+  "rust/collatz-conjecture",
 ]
