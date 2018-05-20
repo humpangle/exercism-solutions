@@ -17,4 +17,5 @@ members = [
   "rust/series",
   "rust/armstrong-numbers",
   "rust/collatz-conjecture",
+  "rust/diffie-hellman",
 ]
