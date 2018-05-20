@@ -1,12 +1,11 @@
-pub fn find() -> Option<i32> {
-    (3..500)
-        .flat_map(|a| (a + 1..500).map(move |b| (a, b)))
-        .filter_map(|(a, b)| {
+pub fn find() -> Option<u32> {
+    for a in 1..999 {
+        for b in 1..999 - a {
             let c = 1000 - a - b;
-            match a * a + b * b == c * c {
-                true => Some(a * b * c),
-                _ => None,
+            if a * a + b * b == c * c {
+                return Some(a * b * c);
             }
-        })
-        .nth(0)
+        }
+    }
+    None
 }
