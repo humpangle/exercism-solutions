@@ -20,4 +20,5 @@ members = [
   "rust/diffie-hellman",
   "rust/twofer",
   "rust/saddle-points",
+  "rust/isogram",
 ]
