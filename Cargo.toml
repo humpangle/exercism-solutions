@@ -9,5 +9,6 @@ members = [
   "rust/bob",
   "rust/beer-song",
   "rust/proverb",
-  "rust/difference-of-squares"
+  "rust/difference-of-squares",
+  "rust/sum-of-multiples"
 ]
