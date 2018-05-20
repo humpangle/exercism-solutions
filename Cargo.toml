@@ -6,5 +6,6 @@ members = [
   "rust/raindrops",
   "rust/reverse-string",
   "rust/nth-prime",
-  "rust/bob"
+  "rust/bob",
+  "rust/beer-song"
 ]
