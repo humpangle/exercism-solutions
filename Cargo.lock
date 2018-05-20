@@ -120,6 +120,10 @@ dependencies = [
 ]
 
 [[package]]
+name = "twofer"
+version = "1.2.0"
+
+[[package]]
 name = "unicode-segmentation"
 version = "1.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
