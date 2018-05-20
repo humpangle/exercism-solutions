@@ -19,4 +19,5 @@ members = [
   "rust/collatz-conjecture",
   "rust/diffie-hellman",
   "rust/twofer",
+  "rust/saddle-points",
 ]
