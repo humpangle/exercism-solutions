@@ -21,4 +21,5 @@ members = [
   "rust/twofer",
   "rust/saddle-points",
   "rust/isogram",
+  "rust/say",
 ]
