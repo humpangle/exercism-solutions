@@ -25,5 +25,6 @@ members = [
   "rust/run-length-encoding",
   "rust/isbn-verifier",
   "rust/perfect-numbers",
-  "rust/clock"
+  "rust/clock",
+  "rust/hamming",
 ]
