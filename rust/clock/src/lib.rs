@@ -31,11 +31,10 @@ impl Clock {
     c
   }
 
-  pub fn add_minutes(self, minutes: i32) -> Self {
-    let mut self_ = self;
-    self_.minutes += minutes;
-    self_.make_display();
-    self_
+  pub fn add_minutes(mut self, minutes: i32) -> Self {
+    self.minutes += minutes;
+    self.make_display();
+    self
   }
 
   fn make_display(&mut self) {
