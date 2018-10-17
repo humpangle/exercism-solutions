@@ -13,6 +13,10 @@
       "path": "rust"
     },
     {
+      "name": "Elixir",
+      "path": "elixir"
+    },
+    {
       "name": "Root",
       "path": "."
     }
