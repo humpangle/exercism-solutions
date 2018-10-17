@@ -138,6 +138,10 @@ name = "series"
 version = "0.1.0"
 
 [[package]]
+name = "simple_linked_list"
+version = "0.1.0"
+
+[[package]]
 name = "sum-of-multiples"
 version = "1.0.0"
 

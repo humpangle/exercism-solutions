@@ -27,4 +27,5 @@ members = [
   "rust/perfect-numbers",
   "rust/clock",
   "rust/hamming",
+  "rust/simple-linked-list",
 ]
