@@ -4,15 +4,15 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Run python",
-      "type": "shell",
-      "command": "python ${file}",
-      "problemMatcher": []
-    },
-    {
       "label": "Submit exercism",
       "type": "shell",
       "command": "exercism submit ${file}",
+      "problemMatcher": []
+    },
+    {
+      "label": "Run python",
+      "type": "shell",
+      "command": "C:\\Users\\maneptha\\AppData\\Local\\conda\\conda\\envs\\exercism\\python.exe ${file}",
       "problemMatcher": []
     }
   ]

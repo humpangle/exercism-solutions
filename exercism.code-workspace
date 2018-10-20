@@ -15,13 +15,13 @@
     {
       "name": "Rust",
       "path": "rust"
-    },
-    {
-      "name": "Root",
-      "path": "."
     }
+    // {
+    //   "name": "Root",
+    //   "path": "."
+    // }
   ],
   "settings": {
-  "python.pythonPath": "C:\\Users\\maneptha\\AppData\\Local\\conda\\conda\\envs\\exercism\\python.exe"
+    // "python.pythonPath": "C:\\Users\\maneptha\\AppData\\Local\\conda\\conda\\envs\\exercism\\python.exe"
   }
 }

@@ -6,7 +6,7 @@
     {
       "label": "Test javascript",
       "type": "shell",
-      "command": "tsc && jasmine ${file}",
+      "command": "tsc && c:\\Users\\maneptha\\Desktop\\foss\\exercism\\javascript\\node_modules\\.bin\\jasmine ${file}",
       "problemMatcher": []
     },
     {
@@ -16,13 +16,13 @@
       "problemMatcher": []
     },
     {
-      "label": "Run javascript",
+      "label": "Run javascript file",
       "type": "shell",
       "command": "node ${file}",
       "problemMatcher": []
     },
     {
-      "label": "Execute typescript file",
+      "label": "Run typescript file",
       "type": "shell",
       "command": "tsc && node ${fileDirname}/${fileBasenameNoExtension}.js",
       "problemMatcher": []

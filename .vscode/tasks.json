@@ -2,39 +2,5 @@
   // See https://go.microsoft.com/fwlink/?LinkId=733558
   // for the documentation about the tasks.json format
   "version": "2.0.0",
-  "tasks": [
-    {
-      "label": "Run python",
-      "type": "shell",
-      "command": "python ${file}",
-      "problemMatcher": []
-    },
-    {
-      "label": "Test javascript",
-      "type": "shell",
-      "command": "tsc && jasmine ${file}",
-      "problemMatcher": [],
-      "options": {
-        "cwd": "javascript"
-      }
-    },
-    {
-      "label": "Submit exercism",
-      "type": "shell",
-      "command": "exercism submit ${file}",
-      "problemMatcher": []
-    },
-    {
-      "label": "Fetch javascript",
-      "type": "shell",
-      "command": "exercism fetch javascript",
-      "problemMatcher": []
-    },
-    {
-      "label": "Run javascript",
-      "type": "shell",
-      "command": "node ${file}",
-      "problemMatcher": []
-    }
-  ]
+  "tasks": []
 }
