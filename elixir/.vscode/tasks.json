@@ -4,9 +4,9 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "elixir ${file}",
+      "label": "mix run ${file}",
       "type": "shell",
-      "command": "elixir ${file}",
+      "command": "mix run ${file}",
       "problemMatcher": [
         "$mixCompileError",
         "$mixCompileWarning",

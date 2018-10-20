@@ -1,6 +1,6 @@
-if !System.get_env("EXERCISM_TEST_EXAMPLES") do
-  Code.load_file("tournament.exs", __DIR__)
-end
+# if !System.get_env("EXERCISM_TEST_EXAMPLES") do
+#   Code.load_file("tournament.exs", __DIR__)
+# end
 
 ExUnit.start()
 ExUnit.configure(trace: true, exclude: :pending)

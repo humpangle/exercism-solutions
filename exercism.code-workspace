@@ -1,6 +1,10 @@
 {
   "folders": [
     {
+      "name": "Elixir",
+      "path": "elixir"
+    },
+    {
       "name": "Javascript",
       "path": "javascript"
     },
@@ -13,13 +17,11 @@
       "path": "rust"
     },
     {
-      "name": "Elixir",
-      "path": "elixir"
-    },
-    {
       "name": "Root",
       "path": "."
     }
   ],
-  "settings": {}
+  "settings": {
+  "python.pythonPath": "C:\\Users\\maneptha\\AppData\\Local\\conda\\conda\\envs\\exercism\\python.exe"
+  }
 }
