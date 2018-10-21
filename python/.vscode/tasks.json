@@ -9,10 +9,18 @@
       "command": "exercism submit ${file}",
       "problemMatcher": []
     },
+
     {
       "label": "Run python",
       "type": "shell",
       "command": "C:\\Users\\maneptha\\AppData\\Local\\conda\\conda\\envs\\exercism\\python.exe ${file}",
+      "problemMatcher": []
+    },
+
+    {
+      "label": "Test python",
+      "type": "shell",
+      "command": "C:\\Users\\maneptha\\AppData\\Local\\conda\\conda\\envs\\exercism\\python.exe ${fileDirname}/${fileBasenameNoExtension}_test.py",
       "problemMatcher": []
     }
   ]
