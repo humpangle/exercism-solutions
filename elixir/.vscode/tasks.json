@@ -12,6 +12,28 @@
         "$mixCompileWarning",
         "$mixTestFailure"
       ]
+    },
+
+    {
+      "label": "iex --werl -S mix",
+      "type": "shell",
+      "command": "iex --werl -S mix",
+      "problemMatcher": [
+        "$mixCompileError",
+        "$mixCompileWarning",
+        "$mixTestFailure"
+      ]
+    },
+
+    {
+      "label": "Mix test ex file",
+      "type": "shell",
+      "command": "mix run ${fileDirname}/${fileBasenameNoExtension}_test.exs",
+      "problemMatcher": [
+        "$mixCompileError",
+        "$mixCompileWarning",
+        "$mixTestFailure"
+      ]
     }
   ]
 }

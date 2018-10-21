@@ -1,8 +1,5 @@
 defmodule Bob do
-  @pattern_not_integer ~r/^[^\d]/
-  @pattern_no_end_with_number ~r/[^\d]$/
-
-  def hey(""), do: "Fine. Be that way!"
+  @pattern_letters ~r/\p{L}/
 
   def hey(input) do
     input = String.trim(input)
@@ -11,19 +8,24 @@ defmodule Bob do
       input == "" ->
         "Fine. Be that way!"
 
-      String.upcase(input) == input && String.ends_with?(input, "?") and
-          Regex.match?(@pattern_not_integer, input) ->
-        "Calm down, I know what I'm doing!"
-
-      Regex.match?(@pattern_no_end_with_number, input) && String.upcase(input) == input &&
-          not String.ends_with?(input, "?") ->
-        "Whoa, chill out!"
-
       String.ends_with?(input, "?") ->
-        "Sure."
+        if yelling_question?(input) do
+          "Calm down, I know what I'm doing!"
+        else
+          "Sure."
+        end
+
+      yelling?(input) ->
+        "Whoa, chill out!"
 
       true ->
         "Whatever."
     end
   end
+
+  defp are_letters?(s), do: Regex.match?(@pattern_letters, s)
+
+  defp yelling?(s), do: String.upcase(s) == s && are_letters?(s)
+
+  defp yelling_question?(s), do: String.upcase(s) == s && are_letters?(s)
 end

@@ -1,4 +1,5 @@
 defmodule Frequency do
+  # @pattern_letter ~r/\p{L}/
   @doc """
   Count letter frequency in parallel.
 
@@ -26,15 +27,17 @@ defmodule Frequency do
     make(r, Map.update(acc, c, 1, &(&1 + 1)))
   end
 
-  defp worker(initial), do: spawn(fn -> loop(Map.put(%{}, initial, 1)) end)
+  # defp worker(initial), do: spawn(fn -> loop(Map.put(%{}, initial, 1)) end)
 
-  defp loop(acc) do
-    receive do
-      {:update, value} ->
-        acc |> Map.update(value, 1, &(&1 + 1)) |> loop
+  # defp loop(acc) do
+  #   receive do
+  #     {:update, value} ->
+  #       acc |> Map.update(value, 1, &(&1 + 1)) |> loop
 
-      :return ->
-        acc
-    end
-  end
+  #     :return ->
+  #       acc
+  #   end
+  # end
+
+  # defp is_letter?(l), do: Regex.match?(@pattern_letter, l)
 end

@@ -1,7 +1,7 @@
 defmodule Tournament do
-  @initial_win %{"MP" => 1, "W" => 1, "D" => 0, "L" => 0, "P" => 3}
-  @initial_draw %{"MP" => 1, "W" => 0, "D" => 1, "L" => 0, "P" => 1}
-  @initial_loss %{"MP" => 1, "W" => 0, "D" => 0, "L" => 1, "P" => 0}
+  @first_win_data %{"MP" => 1, "W" => 1, "D" => 0, "L" => 0, "P" => 3}
+  @first_draw %{"MP" => 1, "W" => 0, "D" => 1, "L" => 0, "P" => 1}
+  @first_loss_data %{"MP" => 1, "W" => 0, "D" => 0, "L" => 1, "P" => 0}
 
   @doc """
   Given `input` lines representing two teams and whether the first of them won,
@@ -16,106 +16,93 @@ defmodule Tournament do
   """
   @spec tally(input :: list(String.t())) :: String.t()
   def tally(input) do
-    map =
-      input
-      |> Enum.reduce(%{}, fn s, map ->
-        case s |> String.trim() |> String.split(";") do
-          [t1, t2, status] ->
-            case status do
-              "win" ->
-                map
-                |> Map.update(t1, @initial_win, fn val ->
-                  Map.merge(val, %{
-                    "MP" => val["MP"] + 1,
-                    "W" => val["W"] + 1,
-                    "P" => val["P"] + 3
-                  })
-                end)
-                |> Map.update(t2, @initial_loss, fn val ->
-                  Map.merge(val, %{
-                    "MP" => val["MP"] + 1,
-                    "L" => val["L"] + 1
-                  })
-                end)
+    map = Enum.reduce(input, %{}, &compute_game_data/2)
+    longest_team_len = String.length("Courageous Californians")
 
-              "draw" ->
-                [t1, t2]
-                |> Enum.reduce(
-                  map,
-                  &Map.update(&2, &1, @initial_draw, fn val ->
-                    Map.merge(val, %{
-                      "MP" => val["MP"] + 1,
-                      "D" => val["D"] + 1,
-                      "P" => val["P"] + 1
-                    })
-                  end)
-                )
+    data_rows =
+      map
+      |> Enum.sort(&sort_by_points/2)
+      |> Enum.reduce([], fn {team, data}, acc ->
+        [display_data_row(team, data, longest_team_len) | acc]
+      end)
 
-              "loss" ->
-                map
-                |> Map.update(t1, @initial_loss, fn val ->
-                  Map.merge(val, %{
-                    "MP" => val["MP"] + 1,
-                    "L" => val["L"] + 1
-                  })
-                end)
-                |> Map.update(t2, @initial_win, fn val ->
-                  Map.merge(val, %{
-                    "MP" => val["MP"] + 1,
-                    "W" => val["W"] + 1,
-                    "P" => val["P"] + 3
-                  })
-                end)
+    ["Team                           | MP |  W |  D |  L |  P" | data_rows]
+    |> Enum.join("\n")
+  end
 
-              _ ->
-                map
-            end
+  defp compute_game_data(game_string, map) do
+    case game_string |> String.trim() |> String.split(";") do
+      [team1, team2, game_result] ->
+        case game_result do
+          "win" ->
+            map
+            |> Map.update(team1, @first_win_data, fn team_data ->
+              Map.merge(team_data, %{
+                "MP" => team_data["MP"] + 1,
+                "W" => team_data["W"] + 1,
+                "P" => team_data["P"] + 3
+              })
+            end)
+            |> Map.update(team2, @first_loss_data, fn team_data ->
+              Map.merge(team_data, %{
+                "MP" => team_data["MP"] + 1,
+                "L" => team_data["L"] + 1
+              })
+            end)
+
+          "draw" ->
+            [team1, team2]
+            |> Enum.reduce(
+              map,
+              &Map.update(&2, &1, @first_draw, fn team_data ->
+                Map.merge(team_data, %{
+                  "MP" => team_data["MP"] + 1,
+                  "D" => team_data["D"] + 1,
+                  "P" => team_data["P"] + 1
+                })
+              end)
+            )
+
+          "loss" ->
+            map
+            |> Map.update(team1, @first_loss_data, fn val ->
+              Map.merge(val, %{
+                "MP" => val["MP"] + 1,
+                "L" => val["L"] + 1
+              })
+            end)
+            |> Map.update(team2, @first_win_data, fn val ->
+              Map.merge(val, %{
+                "MP" => val["MP"] + 1,
+                "W" => val["W"] + 1,
+                "P" => val["P"] + 3
+              })
+            end)
 
           _ ->
             map
         end
-      end)
 
-    longest_team = 23
+      _ ->
+        map
+    end
+  end
 
-    lines =
-      map
-      |> Enum.sort(fn
-        {<<k1, _::binary>>, %{"P" => p1}}, {<<k2, _::binary>>, %{"P" => p2}} ->
-          cond do
-            p1 == p2 -> k1 > k2
-            true -> p1 < p2
-          end
-      end)
-      |> Enum.reduce([], fn {team, data}, acc ->
-        spaces =
-          longest_team
-          |> Kernel.-(String.length(team))
-          |> Kernel.+(8)
+  defp sort_by_points({k1, %{"P" => p1}}, {k2, %{"P" => p2}}),
+    do: (p1 == p2 && k1 > k2) || p1 < p2
 
-        [
-          [
-            team,
-            String.duplicate(" ", spaces),
-            "|  ",
-            data["MP"],
-            " |  ",
-            data["W"],
-            " |  ",
-            data["D"],
-            " |  ",
-            data["L"],
-            " |  ",
-            data["P"]
-          ]
-          |> Enum.join()
-          | acc
-        ]
-      end)
+  defp display_data_row(team, data, longest_team_len) do
+    spaces =
+      longest_team_len
+      |> Kernel.-(String.length(team))
+      |> Kernel.+(8)
 
     [
-      "Team                           | MP |  W |  D |  L |  P" | lines
+      team,
+      String.duplicate(" ", spaces),
+      "|  ",
+      Enum.map(["MP", "W", "D", "L", "P"], &data[&1]) |> Enum.join(" |  ")
     ]
-    |> Enum.join("\n")
+    |> Enum.join()
   end
 end
