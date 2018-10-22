@@ -29,11 +29,7 @@
       "label": "Mix test file",
       "type": "shell",
       "command": "mix exercism test ${file}",
-      "problemMatcher": [
-        "$mixCompileError",
-        "$mixCompileWarning",
-        "$mixTestFailure"
-      ]
+      "problemMatcher": ["$mixCompileError", "$mixTestFailure"]
     },
 
     {
@@ -50,7 +46,7 @@
     {
       "label": "Submit elixir",
       "type": "shell",
-      "command": "mix exercism submit",
+      "command": "mix exercism submit ${file}",
       "problemMatcher": [
         "$mixCompileError",
         "$mixCompileWarning",

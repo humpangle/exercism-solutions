@@ -16,14 +16,14 @@ defmodule Mix.Tasks.Exercism do
 
         cond do
           String.ends_with?(root, "test") ->
-            run_cmd("mix", ["test", path])
+            mix_run_test(path)
 
           ext == ".exs" ->
-            run_cmd("mix", ["test", "#{root}_test.exs"])
+            mix_run_test("#{root}_test.exs")
 
           ext == ".ex" ->
             File.write!(root <> ".exs", File.read!(path))
-            run_cmd("mix", ["test", "#{root}_test.exs"])
+            mix_run_test("#{root}_test.exs")
         end
     end
   end
@@ -64,6 +64,9 @@ defmodule Mix.Tasks.Exercism do
   end
 
   defp valid_elixir_file?(ext), do: Enum.member?([".ex", ".exs"], ext)
+
+  defp mix_run_test(path),
+    do: run_cmd("mix", ["test", "--exclude", "pending", path])
 
   defp run_cmd(command, args), do: run_cmd(command, args, [])
 
