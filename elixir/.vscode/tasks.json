@@ -28,7 +28,18 @@
     {
       "label": "Mix test ex file",
       "type": "shell",
-      "command": "mix run ${fileDirname}/${fileBasenameNoExtension}_test.exs",
+      "command": "mix exercism ex_to_exs ${file} && mix run ${fileDirname}/${fileBasenameNoExtension}_test.exs",
+      "problemMatcher": [
+        "$mixCompileError",
+        "$mixCompileWarning",
+        "$mixTestFailure"
+      ]
+    },
+
+    {
+      "label": "Submit elixir",
+      "type": "shell",
+      "command": "mix exercism ex_to_exs ${file} && exercism submit ${fileDirname}/${fileBasenameNoExtension}.exs",
       "problemMatcher": [
         "$mixCompileError",
         "$mixCompileWarning",
